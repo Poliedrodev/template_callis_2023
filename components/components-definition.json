@@ -66,14 +66,25 @@
             "name": "css_01_titulo_cap_num",
             "icon": "icons/components/icon_01_titulo_cap.svg",
             "label": "Número do Capítulo",
-            "properties": ["style"]
+            "properties": ["style" ],
+
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },
 
         {
             "name": "css_01_titulo_cap",
             "icon": "icons/components/icon_01_titulo_cap.svg",
             "label": "01 Título Capítulo",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"],
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },
 
         {
@@ -87,30 +98,50 @@
             "name": "css_01_titulo1",
             "icon": "icons/components/icon_01_titulo1.svg",
             "label": "01 Título 1",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"],
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },        
 
         {
             "name": "css_01_titulo2",
             "icon": "icons/components/icon_01_titulo2.svg",
             "label": "01 Título 2",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"],
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },
 
         {
             "name": "css_01_titulo3",
             "icon": "icons/components/icon_01_titulo3.svg",
             "label": "01 Título 3",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"],
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },
 
         {
             "name": "css_01_titulo4",
             "icon": "icons/components/icon_01_titulo4.svg",
             "label": "01 Título 4",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"],
+            "directiveOptions": {
+                "text": {
+                "stripStylingOnPaste": true
+                }
+              }
         },
-
+ 
         {
             "name": "css_02_texto_bullet",
             "icon": "icons/components/icon_02_texto_bullet.svg",

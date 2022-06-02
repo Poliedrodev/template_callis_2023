@@ -1,98 +1,119 @@
 .css_01_titulo_cap_num {
-
   /* Características do texto */
-  font-family: $fontName;
-  font-weight: 600;
-  font-size: 30px;
-  color: $preto;
-
-  /* Características do componente */
+  font-family: "Montserrat";
+  color: #F8F8F8;
+  width: 100%;
+  height: 60px;
+  font-weight: 400;
+  font-size: 2.625rem;
   display: flex;
-  z-index: 1;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0px;
+
+  .estilo_title {
+    font-weight: 400;
+    font-size: 2.625rem;
+
+  }
+
+  .icone_tituo1cap_num{
+    width: 42px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: left;
+    position: absolute;
+    z-index: 2;
+    align-items: left;
+    margin: 0;
+    background-position: center;
+    left: 10px;
+    top: 10px;
+
+  }
 
   /* Variações de cores */
   &.artes {
-    color: $art_cor1;
+    background-color: $art_cor100;
+
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_art.svg");
+    
+    }
   }
 
-  &.biologia {
-    color: $bio_cor1;
-  }
 
   &.ciencias {
-    color: $cie_cor1;
-  }
+    background-color: $cie_cor100;
 
-  &.educacao_fisica {
-    color: $edf_cor1;
-  }
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_cie.svg");
+     
+    }
 
-  &.filosofia {
-    color: $fil_cor1;
-  }
-
-  &.fisica {
-    color: $fis_cor1;
   }
 
   &.geografia {
-    color: $geo_cor1;
+    background-color: $geo_cor100;
+
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_geo.svg");
+     
+    }
   }
 
-  &.gramatica {
-    color: $gra_cor1;
-  }
+
 
   &.historia {
-    color: $his_cor1;
+    background-color: $his_cor100;
+
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_his.svg");
+     
+    }
   }
 
-  &.integrado {
-    color: $int_cor1;
-  }
-
-  &.inter_de_texto {
-    color: $itx_cor1;
-  }
-
-  &.lingua_espanhola {
-    color: $esp_cor1;
-  }
 
   &.lingua_inglesa {
-    color: $ing_cor1;
+    background-color: $ing_cor100;
+
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_ing.svg");
+     
+    }
+
   }
 
   &.lingua_portuguesa {
-    color: $por_cor1;
+    background-color: $por_cor100;
+
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_lpo.svg");
+    
+    }
   }
 
-  &.linguagens {
-    color: $lin_cor1;
-  }
 
-  &.literatura {
-    color: $lit_cor1;
-  }
 
   &.matematica {
-    color: $mat_cor1;
-  }
+    background-color: $mat_cor100;
 
-  &.musica {
-    color: $mus_cor1;
+    .icone_tituo1cap_num {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_capitulo_head_mat.svg");
+     
+    }
   }
+}
 
-  &.producao_de_texto {
-    color: $ptx_cor1;
-  }
 
-  &.quimica {
-    color: $qui_cor1;
-  }
+.alinhamento {
+  display: flex;
+  align-items: center;
+}
 
-  &.sociologia {
-    color: $soc_cor1;
-  }
-
+.margemint {
+  padding: 57px;
 }
