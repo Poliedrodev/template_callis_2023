@@ -10,6 +10,8 @@ $bancoquestao: #00aeef;
 $bodyBackground: #ffffff;
 $textColor: #000000;
 
+
+
 /* Variações de cores */
 /* dropdown */
 $curiosidade_100: #DD7500;
@@ -29,10 +31,9 @@ $conheca_50: #B5A38F;
 $conheca_20: #F0ECE8;
 
 /* Artes */
-$art_cor1: #64428C;
-$art_cor2: #3F1F71;
-$art_cor3: #B9A9CB;
-$art_cor4: #dfdaea;
+$art_cor100: #63B9E9;
+$art_cor50: #B0DBF3;
+$art_cor10: #EEF7FC;
 
 $saiba_mais_100: #E94F35;
 $saiba_mais_50: #F4A79A;
@@ -45,80 +46,6 @@ $all_ears_20: #EAF6E9;
 $where_else_100: #522057;
 $where_else_50: #A990AB;
 $where_else_20: #EDE8EE;
-
-/* inicio antigas */
-
-/* Bio */
-$bio_cor1: #3AAA35;
-$bio_cor2: #9BD499;
-$bio_cor3: #EAF6E9;
-
-/* Edfisica */
-$edf_cor1: #3AAA35;
-$edf_cor2: #9BD499;
-$edf_cor3: #EAF6E9;
-
-/* Edfisica */
-$fil_cor1: #3AAA35;
-$fil_cor2: #9BD499;
-$fil_cor3: #EAF6E9;
-
-/* Edfisica */
-$fis_cor1: #3AAA35;
-$fis_cor2: #9BD499;
-$fis_cor3: #EAF6E9;
-
-/* Edfisica */
-$gra_cor1: #3AAA35;
-$gra_cor2: #9BD499;
-$gra_cor3: #EAF6E9;
-
-/* Edfisica */
-$int_cor1: #3AAA35;
-$int_cor2: #9BD499;
-$int_cor3: #EAF6E9;
-
-/* Edfisica */
-$itx_cor1: #3AAA35;
-$itx_cor2: #9BD499;
-$itx_cor3: #EAF6E9;
-
-/* Edfisica */
-$esp_cor1: #3AAA35;
-$esp_cor2: #9BD499;
-$esp_cor3: #EAF6E9;
-
-/* Edfisica */
-$lin_cor1: #3AAA35;
-$lin_cor2: #9BD499;
-$lin_cor3: #EAF6E9;
-
-/* Edfisica */
-$lit_cor1: #3AAA35;
-$lit_cor2: #9BD499;
-$lit_cor3: #EAF6E9;
-
-/* Edfisica */
-$mus_cor1: #3AAA35;
-$mus_cor2: #9BD499;
-$mus_cor3: #EAF6E9;
-
-/* Edfisica */
-$ptx_cor1: #3AAA35;
-$ptx_cor2: #9BD499;
-$ptx_cor3: #EAF6E9;
-
-/* Edfisica */
-$qui_cor1: #3AAA35;
-$qui_cor2: #9BD499;
-$qui_cor3: #EAF6E9;
-
-/* Edfisica */
-$soc_cor1: #3AAA35;
-$soc_cor2: #9BD499;
-$soc_cor3: #EAF6E9;
-
-/* fim antigas */
 
 
 /* Ciências */
@@ -158,6 +85,45 @@ $mat_cor1: #FFD500;
 $mat_cor2: #FFE97E;
 $mat_cor3: #FFFAE4;
 
+/* Ciências */
+$cie_cor100: #3AAA35;
+$cie_cor50: #9BD499;
+$cie_cor10: #EAF6E9;
+
+
+
+/* Geografia */
+$geo_cor100: #0080C9;
+$geo_cor50: #7EBFE3;
+$geo_cor10: #E4F1F9;
+
+
+
+/* História */
+$his_cor100: #8A1E82;
+$his_cor50: #C48DC0;
+$his_cor10: #F2E7F1;
+
+
+/* Língua Inglesa */
+$ing_cor100: #E94E1B;
+$ing_cor50: #F3A58C;
+$ing_cor10: #FCECE6;
+
+
+/* Língua Portuguesa */
+$por_cor100: #E30613;
+$por_cor50: #F18288;
+$por_cor10: #FCE4E6;
+
+
+
+/* Matemática */
+$mat_cor100: #FFD500;
+$mat_cor50: #FFE97E;
+$mat_cor10: #FFFAE4;
+
+
 
 /* Variações de cores de segmento */
 /* Linguagens */
@@ -165,6 +131,7 @@ $seg_lin_cor1: #bfd730;
 $seg_lin_cor2: #62883b;
 $seg_lin_cor3: #ECF0A6;
 $seg_lin_cor4: #F7F9D9;
+
 
 /* Matemática */
 $seg_mat_cor1: #F1CB40;
@@ -184,6 +151,7 @@ $seg_hum_cor2: #208F6D;
 $seg_hum_cor3: #D7EDE3;
 $seg_hum_cor4: #EEF7F3;
 
+
 /* Outros */
 $fontName: 'Red Hat Display', sans-serif;
 $fonteSerifa: 'Noticia Text';
@@ -194,6 +162,8 @@ $speed: 0.2s;
 $img-dir: 'img/';
 $max-width: 860px;
 $phone-max-width: 481px;
+
+
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {

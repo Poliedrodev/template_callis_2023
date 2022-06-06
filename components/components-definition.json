@@ -92,7 +92,12 @@
             "label": "Número do Capítulo",
             "properties": [
                 "style"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_01_titulo_cap",
@@ -103,7 +108,12 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_01_titulo_unid",
@@ -125,7 +135,12 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_01_titulo2",
@@ -136,7 +151,12 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_01_titulo3",
@@ -147,7 +167,12 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_01_titulo4",
@@ -158,7 +183,12 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
-            ]
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         },
         {
             "name": "css_02_texto_bullet",

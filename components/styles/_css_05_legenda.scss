@@ -13,23 +13,23 @@
     .line-legenda {
       width: 162px;
       height: 2px;
-      background-color: $seg_lin_cor1;
+      background-color: $art_cor100;
       margin-bottom: 4px;
 
       &.artes {
-        background-color: $seg_lin_cor1;
+        background-color: $art_cor100;
       }
 
       &.lingua_inglesa {
-        background-color: $seg_lin_cor1;
+        background-color: $ing_cor100;
       }
 
       &.lingua_portuguesa {
-        background-color: $seg_lin_cor1;
+        background-color: $por_cor100;
       }
 
       &.matematica {
-        background-color: $seg_mat_cor1;
+        background-color: $mat_cor100;
       }
     }
   }
@@ -40,23 +40,23 @@
     .line-legenda {
       width: 162px;
       height: 2px;
-      background-color: $seg_lin_cor1;
+      background-color: $ing_cor100;
       margin-bottom: 4px;
 
       &.artes {
-        background-color: $seg_lin_cor1;
+        background-color: $art_cor100;
       }
 
       &.lingua_inglesa {
-        background-color: $seg_lin_cor1;
+        background-color: $ing_cor100;
       }
 
       &.lingua_portuguesa {
-        background-color: $seg_lin_cor1;
+        background-color: $por_cor100;
       }
 
       &.matematica {
-        background-color: $seg_mat_cor1;
+        background-color: $mat_cor100;
       }
     }
   }
@@ -67,23 +67,23 @@
     .line-legenda {
       width: 162px;
       height: 2px;
-      background-color: $seg_lin_cor1;
+      background-color: $por_cor100;
       margin-bottom: 4px;
 
       &.artes {
-        background-color: $seg_lin_cor1;
+        background-color: $por_cor100;
       }
 
       &.lingua_inglesa {
-        background-color: $seg_lin_cor1;
+        background-color: $ing_cor100;
       }
 
       &.lingua_portuguesa {
-        background-color: $seg_lin_cor1;
+        background-color: $por_cor100;
       }
 
       &.matematica {
-        background-color: $seg_mat_cor1;
+        background-color: $mat_cor100;
       }
     }
   }
@@ -94,23 +94,23 @@
     .line-legenda {
       width: 162px;
       height: 2px;
-      background-color: $seg_mat_cor1;
+      background-color: $mat_cor100;
       margin-bottom: 4px;
 
       &.artes {
-        background-color: $seg_lin_cor1;
+        background-color: $art_cor100;
       }
 
       &.lingua_inglesa {
-        background-color: $seg_lin_cor1;
+        background-color: $ing_cor100;
       }
 
       &.lingua_portuguesa {
-        background-color: $seg_lin_cor1;
+        background-color: $por_cor100;
       }
 
       &.matematica {
-        background-color: $seg_mat_cor1;
+        background-color: $mat_cor100;
       }
     }
   }
@@ -122,18 +122,18 @@
   background-color: #000;
 
   &.artes {
-    background-color: $seg_lin_cor1;
+    background-color: $art_cor100;
   }
 
   &.lingua_inglesa {
-    background-color: $seg_lin_cor1;
+    background-color: $ing_cor100;
   }
 
   &.lingua_portuguesa {
-    background-color: $seg_lin_cor1;
+    background-color: $por_cor100;
   }
 
   &.matematica {
-    background-color: $seg_mat_cor1;
+    background-color: $mat_cor100;
   }
 }
