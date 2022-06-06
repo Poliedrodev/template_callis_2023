@@ -1,6 +1,6 @@
-.css_03_exercicio_enunciado {
+.css_03_exercicio_alternativa_assinalar {
   width: 100%;
-  margin-top: 31px;
+  margin-top: 24px;
 
   display: grid;
   grid-template-columns: min-content auto;
@@ -12,10 +12,6 @@
   line-height: 1.5em;
   font-size: 20px;
   align-items: baseline;
-
-  p {
-    margin: 0;
-  }
 
   .content_number {
     width: 34px;
@@ -31,20 +27,16 @@
       background: #A90F09;
 
 
-      .number_enunciado {
+      .number_alternativa_assinalar {
         color: #ffffff;
         font-weight: 700;
       }
     }
   }
 
-  .group_enunciado {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-
-    .title_enunciado {
-      margin-bottom: 16px;
+  .group_alternativa_assinalar {
+    .content_alternativa_assinalar {
+      padding-inline-start: 30px;
     }
   }
 }

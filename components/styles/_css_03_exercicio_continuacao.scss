@@ -1,9 +1,50 @@
 .css_03_exercicio_continuacao {
-  display: block;
-  font-family: 'Noticia Text';
+  width: 100%;
+  margin-top: 31px;
+
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontRedHatDisplay;
   font-weight: 400;
-  color: #000000;
-  font-size: 18px;
-  margin-top: 12px;
+  color: $textColor;
   line-height: 1.5em;
+  font-size: 20px;
+  align-items: baseline;
+
+  p {
+    margin: 0;
+  }
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 34px;
+      height: 24px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #A90F09;
+
+
+      .number_continuacao {
+        color: #ffffff;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .group_continuacao {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    .title_continuacao {
+      margin-bottom: 16px;
+    }
+  }
 }
