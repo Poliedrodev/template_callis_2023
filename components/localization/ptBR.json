@@ -67,5 +67,16 @@
     "TEMPLATE_PRODUCT_DESCRIPTION_PLACEHOLDER": "Escreva uma breve descrição do produto.",
     "TEMPLATE_PRODUCT_LINK_PLACEHOLDER": "www.example.com",
     "TEMPLATE_PRODUCT_PRICE_PLACEHOLDER": "Preço do produto",
-    "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto"
+    "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto",
+    "EXERCICE_NUMBER": "Nº",
+    "EXERCICE_LETRA": "L",
+    "EXERCICE_TITLE_ENUNCIADO": "Digite título do enunciado",
+    "EXERCICE_TEXT_ENUNCIADO": "Digite o texto do enunciado",
+    "EXERCICE_TITLE_CONTINUACAO": "Digite título do exercicio continuação",
+    "EXERCICE_TEXT_CONTINUACAO": "Digite o texto do exercicio continuação",
+    "EXERCICE_TITLE_ALTERNATIVA": "Digite o título do exercício alternativa",
+    "EXERCICE_TEXT_ALTERNATIVA": "Digite o texto da alternativa",
+    "EXERCICE_TITLE_ALTERNATIVA_ASSINALAR": "Digite o título do exercício alternativa assinalar",
+    "EXERCICE_TITLE_ITEM": "Digite o título do exercício item",
+    "EXERCICE_TEXT_ITEM": "Digite o texto do item"
 }

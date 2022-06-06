@@ -349,4 +349,6 @@
         initSlideshows();
     });
 
+    console.log("oi 2");
+
 })(document, window, jQuery);

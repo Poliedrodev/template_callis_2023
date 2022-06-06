@@ -151,10 +151,21 @@ $seg_hum_cor2: #208F6D;
 $seg_hum_cor3: #D7EDE3;
 $seg_hum_cor4: #EEF7F3;
 
+// abre secoes
+$atividades: #B47E20;
+$desafio: #522057;
+$reflexão: #1C3055;
+$sintese: #881D12;
+$pontos_e_letras: #98134B;
+$leitura_complementar: #98134B;
+$arte_e_voce: #B47E20;
+$diario_do_artista: #B47E20;
+$secoes_ingles: #E94E1B;
 
 /* Outros */
 $fontName: 'Red Hat Display', sans-serif;
 $fonteSerifa: 'Noticia Text';
+$fontRedHatDisplay: 'Red Hat Display';
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
@@ -180,7 +191,7 @@ $phone-max-width: 481px;
 /* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700&display=swap');
 
 /* Article view style */
 html,
@@ -213,6 +224,12 @@ body {
         display: block;
         clear: both;
     }
+}
+
+p,
+ol,
+li {
+    margin: 0;
 }
 
 /* Set link color */
@@ -323,16 +340,79 @@ span[data-text-edit-color] {
         }
 
         ._hero-bg-box {
-            position: fixed;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+
+            ._hero-bg-item {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 0;
+                transition-property: opacity;
+                transition-timing-function: linear;
+                transition-duration: $speed * 2;
+
+                &._current {
+                    opacity: 1;
+                }
+            }
         }
 
         ._hero-content-box {
-            position: relative;
-            margin: 0 -5px;
-            top: auto;
-            right: auto;
-            bottom: auto;
-            left: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            ._hero-content-wrapper {
+                background-color: $bodyBackground;
+
+                ._hero-content-body {
+                    max-width: $max-width;
+                    padding: 0 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    overflow-x: hidden;
+
+                    &::after {
+                        content: ' ';
+                        display: block;
+                        clear: both;
+                    }
+                }
+            }
+        }
+
+        &.hero-js-android {
+            body {
+                max-width: none;
+            }
+
+            ._hero-bg-box {
+                position: fixed;
+            }
+
+            ._hero-content-box {
+                position: relative;
+                margin: 0 -5px;
+                top: auto;
+                right: auto;
+                bottom: auto;
+                left: auto;
+            }
         }
     }
 }
