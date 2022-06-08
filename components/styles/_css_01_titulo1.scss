@@ -1,7 +1,7 @@
 .css_01_titulo1 {
 
   /* Características do texto */
-  font-family: "Montserrat";
+  font-family: $fontPrincipal;
   font-size: 2.5rem;
   font-weight: 300;
   color: #F8F8F8;
@@ -38,8 +38,9 @@
   /* Variações de cores */
   &.artes {
     background-color: $art_cor100;
+
     .icone_tituo1cap {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg");
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg");
 
     }
 
@@ -68,51 +69,51 @@
 
 
 
-    &.historia {
-      background-color: $his_cor100;
+  &.historia {
+    background-color: $his_cor100;
 
-      .icone_tituo1cap {
-        background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_his.svg");
-       
-      }
-    }
-
-
-    &.lingua_inglesa {
-      background-color: $ing_cor100;
-
-      .icone_tituo1cap {
-        background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_ing.svg");
-  
-      }
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_his.svg");
 
     }
+  }
 
-    &.lingua_portuguesa {
-      background-color: $por_cor100;
 
-      .icone_tituo1cap {
-        background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_lpo.svg");
-      
-      }
-    }
+  &.lingua_inglesa {
+    background-color: $ing_cor100;
 
-    &.matematica {
-      background-color: $mat_cor100;
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_ing.svg");
 
-      .icone_tituo1cap {
-        background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_mat.svg");
-       
-      }
     }
 
   }
 
-  .alinhamento {
-    display: flex;
-    align-items: center;
+  &.lingua_portuguesa {
+    background-color: $por_cor100;
+
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_lpo.svg");
+
+    }
   }
 
-  .margemint {
-    padding: 57px;
+  &.matematica {
+    background-color: $mat_cor100;
+
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_mat.svg");
+
+    }
   }
+
+}
+
+.alinhamento {
+  display: flex;
+  align-items: center;
+}
+
+.margemint {
+  padding: 57px;
+}

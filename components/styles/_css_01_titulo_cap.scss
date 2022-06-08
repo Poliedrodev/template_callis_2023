@@ -1,8 +1,8 @@
 .css_01_titulo_cap {
 
- 
+
   /* Características do texto */
-  font-family: "Montserrat";
+  font-family: $fontPrincipal;
   font-size: 2.5rem;
   font-weight: 300;
   color: black;
@@ -16,11 +16,12 @@
   margin-top: 40px;
   padding: 0px 0px 16px 0px;
 
-  .estilo_title{
-  font-size: 2.5rem;
-  font-weight: 300;
+  .estilo_title {
+    font-size: 2.5rem;
+    font-weight: 300;
   }
-  .icone_tituo1cap{
+
+  .icone_tituo1cap {
     width: 35.7px;
     height: 35.7px;
     background-repeat: no-repeat;
@@ -32,69 +33,72 @@
     margin: 0;
     background-position: center;
   }
+
   /* Variações de cores */
   &.artes {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_ART.svg");
-   
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_ART.svg");
+
     }
   }
 
 
   &.ciencias {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_CIE.svg");
-   
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_CIE.svg");
+
     }
-    
+
   }
 
   &.geografia {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_GEO.svg");
-   
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_GEO.svg");
+
     }
   }
 
- 
+
 
   &.historia {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_HIS.svg");
-  
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_HIS.svg");
+
     }
   }
 
 
   &.lingua_inglesa {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_ING.svg");
-   
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_ING.svg");
+
     }
-    
+
   }
 
   &.lingua_portuguesa {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_LPO.svg");
-   
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_LPO.svg");
+
     }
   }
 
- 
+
 
   &.matematica {
-    .icone_tituo1cap{
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_MAT.svg");
-    
+    .icone_tituo1cap {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_MAT.svg");
+
     }
   }
 
 }
-.alinhamento{
+
+.alinhamento {
   display: flex;
   align-items: center;
-  }
-  .margemint_titulo_cap{
-    padding:40.7px ;
-  }
+}
+
+.margemint_titulo_cap {
+  padding: 40.7px;
+}

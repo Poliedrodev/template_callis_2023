@@ -1115,25 +1115,25 @@
             "name": "css_09_iniciais_peso1",
             "icon": "icons/components/icon_09_iniciais_peso1.svg",
             "label": "css_09_iniciais_peso1",
-            "properties": []
+            "properties": ["style", "text-align", "letter-spacing"]
         },
         {
             "name": "css_09_iniciais_peso2",
             "icon": "icons/components/icon_09_iniciais_peso2.svg",
             "label": "css_09_iniciais_peso2",
-            "properties": []
+            "properties": ["style", "text-align", "letter-spacing"]
         },
         {
             "name": "css_09_iniciais_peso3",
             "icon": "icons/components/icon_09_iniciais_peso3.svg",
             "label": "css_09_iniciais_peso3",
-            "properties": []
+            "properties": ["style", "text-align", "letter-spacing"]
         },
         {
             "name": "css_09_iniciais_peso4",
             "icon": "icons/components/icon_09_iniciais_peso4.svg",
             "label": "css_09_iniciais_peso4",
-            "properties": []
+            "properties": ["style", "text-align", "letter-spacing"]
         },
         {
             "name": "css_09_iniciais_texto1",

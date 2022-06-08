@@ -1,7 +1,7 @@
 .css_01_titulo3 {
 
   /* Características do texto */
-  font-family: "Montserrat";
+  font-family: $fontPrincipal;
   font-weight: 600;
   font-size: 1.75rem;
   color: #4B4B4B;
@@ -11,7 +11,6 @@
   display: block;
   margin-top: 1.25rem;
   padding: 0 0px;
-  position: absolute;
   margin-bottom: 0px;
   line-height: 1.5em;
 

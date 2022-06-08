@@ -1,18 +1,11 @@
 .css_01_titulo4 {
 
   /* Características do texto */
-  font-family: "Montserrat";
+  font-family: $fontPrincipal;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 24px;
   color: #71706F;
-  margin: 40px 0px 15px 0px;
+  margin: 40px 0px 16px 0px;
   padding: 0px 0px 0px 0px;
-
-  /* Características do componente */
-  display: block;
-  margin-top: 40px;
-  padding: 0 0px;
-  margin-bottom: 68px;
-  line-height: 1.5em;
 
 }

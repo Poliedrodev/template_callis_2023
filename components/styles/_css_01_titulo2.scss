@@ -1,65 +1,63 @@
 .css_01_titulo2 {
 
-  /* Características do componente */
-  position: absolute;
-  display: block;
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 2rem;
-  margin: 40px 0px 15px 0px;
-  padding: 0px 0px 0px 0px;
+    /* Características do componente */
 
-  /* Variações de cores */
-  &.artes {
+    display: block;
+    font-family: $fontPrincipal;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 40px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
 
-      color: $art_cor100;
-      
-    }
-  
+    /* Variações de cores */
+    &.artes {
 
-  &.ciencias {
-
-      color:$cie_cor100;
-
-  }
-
-
-
-  &.geografia {
-    
-      color: $geo_cor100;
-    
-  }
-
- 
-  &.historia {
-    
-      color: $his_cor100;
-    
-  }
-
- 
-
-  &.lingua_inglesa {
-    
-      color: $ing_cor100;
-    
-  }
-
-  &.lingua_portuguesa {
-   
-      color: $por_cor100;
-    
-  }
-
- 
-
-  &.matematica {
-    
-      color: $mat_cor100;
+        color: $art_cor100;
 
     }
- 
+
+
+    &.ciencias {
+
+        color: $cie_cor100;
+
+    }
+
+
+
+    &.geografia {
+
+        color: $geo_cor100;
+
+    }
+
+
+    &.historia {
+
+        color: $his_cor100;
+
+    }
+
+
+
+    &.lingua_inglesa {
+
+        color: $ing_cor100;
+
+    }
+
+    &.lingua_portuguesa {
+
+        color: $por_cor100;
+
+    }
+
+
+
+    &.matematica {
+
+        color: $mat_cor100;
+
+    }
+
 }
-
- 

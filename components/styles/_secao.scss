@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 8px;
 
-  font-family: $fontRedHatDisplay;
+  font-family: $fontPrincipal;
   font-size: 1.5rem;
 
   .wrap_content {
@@ -49,7 +49,7 @@
   }
 
   //variações
-  
+
   &.atividades {
     color: $atividades;
 
