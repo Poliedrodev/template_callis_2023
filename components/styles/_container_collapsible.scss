@@ -435,7 +435,7 @@
   }
 
   .toggle-callis:checked+.lbl-toggle-callis+.collapsible-content-05 {
-    max-height: 100vh;
+    max-height: fit-content;
   }
 
   .toggle-callis:checked+.lbl-toggle-callis .plus {

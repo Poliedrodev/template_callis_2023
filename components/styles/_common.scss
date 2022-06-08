@@ -195,7 +195,9 @@ $phone-max-width: 481px;
 
 /* Article view style */
 html,
-body {
+.body-book,
+body,
+.body {
     padding: 0;
     margin: 0;
     font: $defaultFontSize $fontName;
@@ -212,7 +214,8 @@ body {
     }
 }
 
-body {
+body,
+.body-book {
     max-width: $max-width;
     padding: 0 5px;
     margin-left: auto;
@@ -273,7 +276,8 @@ span[data-text-edit-color] {
 .hero-js {
     height: 100%;
 
-    body {
+    body,
+    .body-book {
         height: 100%;
     }
 
@@ -335,7 +339,9 @@ span[data-text-edit-color] {
     }
 
     &.hero-js-android {
-        body {
+
+        body,
+        .body-book {
             max-width: none;
         }
 
@@ -397,7 +403,9 @@ span[data-text-edit-color] {
         }
 
         &.hero-js-android {
-            body {
+
+            body,
+            .body-book {
                 max-width: none;
             }
 

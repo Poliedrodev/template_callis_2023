@@ -704,7 +704,15 @@
                 "style",
                 "text-align",
                 "letter-spacing",
-                "line-height"
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
             ]
         },
         {
