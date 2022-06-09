@@ -1,44 +1,13 @@
 .css_03_exercicio_item_romano {
-  width: 100%;
-  margin-top: 24px;
-
-  display: grid;
-  grid-template-columns: min-content auto;
-  gap: 8px;
+  margin-top: 16px;
 
   font-family: $fontRedHatDisplay;
   font-weight: 400;
   color: $textColor;
   line-height: 1.5em;
-  font-size: 20px;
-  align-items: baseline;
+  font-size: $fontSizeQuestion;
 
   counter-reset: list;
 
-  .content_number {
-    width: 34px;
-
-    .background_number {
-      width: 34px;
-      height: 24px;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: #A90F09;
-
-
-      .number_item_romano {
-        color: #ffffff;
-        font-weight: 700;
-      }
-    }
-  }
-
-  .group_item_romano {
-    .content_item_romano {
-      padding-inline-start: 30px;
-    }
-  }
+  padding-inline-start: 32px;
 }

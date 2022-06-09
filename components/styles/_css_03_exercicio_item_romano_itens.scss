@@ -5,7 +5,7 @@
   font-weight: 300;
   color: $textColor;
   line-height: 1.5em;
-  font-size: 20px;
+  font-size: $fontSizeQuestion;
   align-items: baseline;
 
 
@@ -14,11 +14,11 @@
 
   &::before {
     font-family: $fontRedHatDisplay;
-    font-size: 20px;
+    font-size: $fontSizeIndiceQuestion;
     font-weight: 600;
     counter-increment: list;
     content: counter(list, upper-roman) ".";
     position: absolute;
-    left: -30px;
+    left: -32px;
   }
 }

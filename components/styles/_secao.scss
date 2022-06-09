@@ -48,6 +48,16 @@
     }
   }
 
+  .container_abre_secao{
+    .remove_number{
+      .background_number:first-child {
+        &::before {
+         display: none !important;
+        }
+      }
+    }
+  }
+
   //variações
 
   &.atividades {

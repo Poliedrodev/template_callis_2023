@@ -35,6 +35,14 @@
   }
 
   .container_abre_secao {
+    .remove_number {
+      .background_number:first-child {
+        &::before {
+          display: none !important;
+        }
+      }
+    }
+
     .background_number {
       background: $secoes_ingles  !important;
     }
