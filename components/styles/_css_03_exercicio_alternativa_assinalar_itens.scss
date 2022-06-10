@@ -5,7 +5,7 @@
   font-weight: 300;
   color: $textColor;
   line-height: 1.5em;
-  font-size: 20px;
+  font-size: $fontSizeQuestion;
   align-items: baseline;
 
 
@@ -18,7 +18,7 @@
     font-weight: 600;
     content: "(";
     position: absolute;
-    left: -36px;
+    left: -32px;
     top: 0;
   }
 
@@ -28,6 +28,6 @@
     font-weight: 600;
     content: ")";
     position: absolute;
-    left: -20px;
+    left: -16px;
   }
 }

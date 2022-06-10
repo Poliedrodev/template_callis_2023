@@ -1,42 +1,12 @@
 .css_03_exercicio_alternativa_assinalar {
-  width: 100%;
-  margin-top: 24px;
-
-  display: grid;
-  grid-template-columns: min-content auto;
-  gap: 8px;
+  margin-top: 16px;
 
   font-family: $fontPrincipal;
   font-weight: 400;
   color: $textColor;
   line-height: 1.5em;
-  font-size: 20px;
+  font-size: $fontSizeQuestion;
   align-items: baseline;
 
-  .content_number {
-    width: 34px;
-
-    .background_number {
-      width: 34px;
-      height: 24px;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: #A90F09;
-
-
-      .number_alternativa_assinalar {
-        color: #ffffff;
-        font-weight: 700;
-      }
-    }
-  }
-
-  .group_alternativa_assinalar {
-    .content_alternativa_assinalar {
-      padding-inline-start: 30px;
-    }
-  }
+  padding-inline-start: 32px;
 }
