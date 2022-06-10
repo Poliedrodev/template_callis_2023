@@ -12,7 +12,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_00_cartografia",
@@ -22,7 +27,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_00_ilustracao",
@@ -32,7 +42,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_00_licenciamento_texto_terceiro",
@@ -42,7 +57,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_00_multimidia",
@@ -52,7 +72,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_00_revisao",
@@ -62,7 +87,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_01_bullet_unid",
@@ -73,7 +103,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_01_texto_unid",
@@ -84,7 +119,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_01_titulo_cap_num",
@@ -124,7 +164,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_01_titulo1",
@@ -199,7 +244,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_citado_fonte",
@@ -209,7 +259,12 @@
         "style",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_citado_titulo",
@@ -220,7 +275,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_citado",
@@ -232,7 +292,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_definicao",
@@ -243,7 +308,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_destaque",
@@ -254,7 +324,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_geral",
@@ -265,7 +340,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_geral1",
@@ -276,7 +356,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_geral2",
@@ -287,7 +372,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_geral3",
@@ -299,7 +389,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_glossario_titulo",
@@ -310,7 +405,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_glossario",
@@ -322,7 +422,12 @@
         "position",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_item",
@@ -333,7 +438,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_manuscrito",
@@ -344,7 +454,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_02_texto_vocabulario",
@@ -355,18 +470,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_alternativa",
-      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
-      "label": "03 Exercício Alternativa",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_bullet",
@@ -377,7 +486,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_citado_titulo",
@@ -388,7 +502,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_citado",
@@ -399,40 +518,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_continuacao",
-      "icon": "icons/components/icon_03_exercicio_continuacao.svg",
-      "label": "03 Exercício Continuação",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_enunciado",
-      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
-      "label": "03 Exercício Enunciado",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_item_romano",
-      "icon": "icons/components/icon_03_exercicio_item_romano.svg",
-      "label": "03 Exercício Item Romano",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_item_vf",
@@ -443,18 +534,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
-    },
-    {
-      "name": "css_03_exercicio_item",
-      "icon": "icons/components/icon_03_exercicio_item.svg",
-      "label": "03 Exercício Item",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_resolvido_bullet",
@@ -465,7 +550,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_resolvido_item",
@@ -476,7 +566,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_resolvido",
@@ -487,7 +582,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_texto",
@@ -498,7 +598,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_professor_comentario",
@@ -509,7 +614,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_professor_resposta",
@@ -520,7 +630,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_professor_roteiro_cd",
@@ -531,7 +646,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_proposta_citado_fonte",
@@ -542,7 +662,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_proposta_didatica_citado",
@@ -553,7 +678,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_04_proposta_didatica",
@@ -564,7 +694,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_balao_de_fala",
@@ -575,7 +710,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_cota_titulo",
@@ -586,7 +726,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_cota",
@@ -597,7 +742,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_credito1",
@@ -608,7 +758,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_credito2",
@@ -619,7 +774,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_fonte_mapa",
@@ -629,7 +789,12 @@
         "style",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_fonte",
@@ -639,7 +804,12 @@
         "style",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_grafico_texto",
@@ -650,7 +820,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_grafico_titulo",
@@ -660,7 +835,12 @@
         "style",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_legenda_unidade",
@@ -671,7 +851,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_legenda",
@@ -682,7 +867,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_linha_exercicio",
@@ -693,7 +883,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_mapa_titulo",
@@ -713,7 +908,12 @@
           "name": "hyperlink",
           "directiveKey": "hyperlink"
         }
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_05_nota_rodape",
@@ -724,7 +924,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_bullet",
@@ -735,7 +940,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_exercicio_continuacao",
@@ -746,7 +956,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_exercicio",
@@ -757,7 +972,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_item",
@@ -768,7 +988,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_texto_citado",
@@ -779,7 +1004,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_texto1",
@@ -790,7 +1020,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_texto2",
@@ -801,7 +1036,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_texto3",
@@ -812,7 +1052,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_titulo_texto_citado",
@@ -823,7 +1068,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_titulo1",
@@ -834,7 +1084,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_titulo2",
@@ -845,7 +1100,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_06_boxe_titulo3",
@@ -856,7 +1116,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio_alternativa",
@@ -867,7 +1132,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio_bullet",
@@ -878,7 +1148,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio_continuacao",
@@ -889,7 +1164,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio_item",
@@ -900,7 +1180,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio1",
@@ -911,7 +1196,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio2",
@@ -922,7 +1212,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio3",
@@ -933,7 +1228,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_exercicio4",
@@ -944,7 +1244,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_texto_citado",
@@ -955,7 +1260,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_texto1",
@@ -966,7 +1276,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_texto2",
@@ -977,7 +1292,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_titulo_citado",
@@ -988,7 +1308,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_titulo1",
@@ -999,7 +1324,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_titulo2",
@@ -1010,7 +1340,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_titulo3",
@@ -1021,7 +1356,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_07_secao_titulo4",
@@ -1032,7 +1372,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_bullet",
@@ -1043,7 +1388,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_gravata1",
@@ -1054,7 +1404,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_gravata2",
@@ -1065,7 +1420,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_gravata3",
@@ -1076,7 +1436,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_item",
@@ -1087,7 +1452,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_texto",
@@ -1098,7 +1468,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_08_tabela_titulo",
@@ -1109,7 +1484,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_peso1",
@@ -1119,7 +1499,12 @@
         "style",
         "text-align",
         "letter-spacing"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_peso2",
@@ -1129,7 +1514,12 @@
         "style",
         "text-align",
         "letter-spacing"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_peso3",
@@ -1139,7 +1529,12 @@
         "style",
         "text-align",
         "letter-spacing"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_peso4",
@@ -1149,7 +1544,12 @@
         "style",
         "text-align",
         "letter-spacing"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_texto1",
@@ -1160,7 +1560,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_09_iniciais_texto2",
@@ -1171,7 +1576,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_exercicio_alternativa",
@@ -1182,7 +1592,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_exercicio_bullet",
@@ -1193,7 +1608,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_exercicio_continuacao",
@@ -1204,7 +1624,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_exercicio_item",
@@ -1215,7 +1640,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_exercicio",
@@ -1226,7 +1656,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_texto1",
@@ -1237,7 +1672,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_texto2",
@@ -1248,7 +1688,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_texto3",
@@ -1259,7 +1704,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_titulo1",
@@ -1270,7 +1720,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_titulo2",
@@ -1281,7 +1736,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_titulo3",
@@ -1292,7 +1752,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_10_finais_titulo4",
@@ -1303,7 +1768,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "body",
@@ -1318,7 +1788,12 @@
         "letter-spacing",
         "line-height"
       ],
-      "countStatistics": true
+      "countStatistics": true,
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "background",
@@ -1404,7 +1879,21 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "product_title": {
+          "stripStylingOnPaste": true
+        },
+        "description": {
+          "stripStylingOnPaste": true
+        },
+        "price": {
+          "stripStylingOnPaste": true
+        },
+        "link": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "image",
@@ -1437,7 +1926,8 @@
           "autofill": {
             "source": "image",
             "metadataField": "ContentMetaData/Description"
-          }
+          },
+          "stripStylingOnPaste": true
         }
       }
     },
@@ -1506,7 +1996,18 @@
           "name": "hyperlink",
           "directiveKey": "link-url"
         }
-      ]
+      ],
+      "directiveOptions": {
+        "name": {
+          "stripStylingOnPaste": true
+        },
+        "location": {
+          "stripStylingOnPaste": true
+        },
+        "link": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "crosshead",
@@ -1519,7 +2020,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "footer",
@@ -1532,7 +2038,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "intro",
@@ -1559,7 +2070,15 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        },
+        "author": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "headline",
@@ -1572,7 +2091,18 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "section": {
+          "stripStylingOnPaste": true
+        },
+        "title": {
+          "stripStylingOnPaste": true
+        },
+        "subtitle": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "separator",
@@ -1604,7 +2134,18 @@
           "name": "edit-image",
           "directiveKey": "image"
         }
-      ]
+      ],
+      "directiveOptions": {
+        "title": {
+          "stripStylingOnPaste": true
+        },
+        "subtitle": {
+          "stripStylingOnPaste": true
+        },
+        "author": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "subtitle",
@@ -1617,7 +2158,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "title": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "title",
@@ -1630,7 +2176,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "social-media",
@@ -1683,11 +2234,18 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "caption": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "secao",
       "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "label": {
         "key": "Abre de seções"
       },
@@ -1698,12 +2256,45 @@
     {
       "name": "secao_ingles",
       "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "label": {
         "key": "Abre de seções Inglês"
       },
       "properties": [
         "style_abre_secoes_ingles"
       ]
+    },
+    {
+      "name": "css_03_exercicio_container",
+      "icon": "icons/components/container.svg",
+      "label": "Exercício Container",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_03_exercicio_container_edit",
+      "icon": "icons/components/container.svg",
+      "label": "Editável Exercício Container",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "number_exercicio": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_alternativa",
@@ -1729,11 +2320,67 @@
               ]
             }
           ]
-        },
-        "number_alternativa": {
+        }
+      }
+    },
+    {
+      "name": "css_03_alternativa",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_alternativa": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_03_exercicio_alternativa_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Editável Exercício Alternativa",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_alternativa_edit": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa Editável",
+              "name": "Alternativa Editável",
+              "components": [
+                "css_03_alternativa_edit"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_alternativa_edit",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "alternativa_text": {
           "stripStylingOnPaste": true
         },
-        "title_alternativa": {
+        "text_alternativa": {
           "stripStylingOnPaste": true
         }
       }
@@ -1762,12 +2409,6 @@
               ]
             }
           ]
-        },
-        "number_alternativa_assinalar": {
-          "stripStylingOnPaste": true
-        },
-        "title_alternativa_assinalar": {
-          "stripStylingOnPaste": true
         }
       }
     },
@@ -1788,22 +2429,6 @@
       }
     },
     {
-      "name": "css_03_alternativa",
-      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
-      "label": "Alternativa",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text_alternativa": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
       "name": "css_03_exercicio_continuacao",
       "icon": "icons/components/icon_03_exercicio_continuacao.svg",
       "label": "Exercício Continuação",
@@ -1814,12 +2439,6 @@
         "line-height"
       ],
       "directiveOptions": {
-        "number_continuacao": {
-          "stripStylingOnPaste": true
-        },
-        "title_continuacao": {
-          "stripStylingOnPaste": true
-        },
         "text_continuacao": {
           "stripStylingOnPaste": true
         }
@@ -1836,12 +2455,6 @@
         "line-height"
       ],
       "directiveOptions": {
-        "number_enunciado": {
-          "stripStylingOnPaste": true
-        },
-        "title_enunciado": {
-          "stripStylingOnPaste": true
-        },
         "text_enunciado": {
           "stripStylingOnPaste": true
         }
@@ -1871,12 +2484,6 @@
               ]
             }
           ]
-        },
-        "number_item_romano": {
-          "stripStylingOnPaste": true
-        },
-        "title_item_romano": {
-          "stripStylingOnPaste": true
         }
       }
     },
@@ -1920,12 +2527,6 @@
               ]
             }
           ]
-        },
-        "number_item": {
-          "stripStylingOnPaste": true
-        },
-        "title_item": {
-          "stripStylingOnPaste": true
         }
       }
     },
@@ -2005,20 +2606,23 @@
       "label": "03 exercicios",
       "name": "03_exercicios",
       "components": [
+        "css_03_exercicio_container",
+        "css_03_exercicio_container_edit",
+        "css_03_exercicio_enunciado",
+        "css_03_exercicio_continuacao",
+        "css_03_exercicio_alternativa_edit",
         "css_03_exercicio_alternativa",
+        "css_03_exercicio_alternativa_assinalar",
+        "css_03_exercicio_item_romano",
+        "css_03_exercicio_item",
         "css_03_exercicio_bullet",
         "css_03_exercicio_citado_titulo",
         "css_03_exercicio_citado",
-        "css_03_exercicio_continuacao",
-        "css_03_exercicio_enunciado",
-        "css_03_exercicio_item_romano",
         "css_03_exercicio_item_vf",
-        "css_03_exercicio_item",
         "css_03_exercicio_resolvido_bullet",
         "css_03_exercicio_resolvido_item",
         "css_03_exercicio_resolvido",
-        "css_03_exercicio_texto",
-        "css_03_exercicio_alternativa_assinalar"
+        "css_03_exercicio_texto"
       ]
     },
     {

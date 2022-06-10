@@ -2,6 +2,7 @@
   width: 100%;
   height: fit-content;
   margin-top: 16px;
+  margin-bottom: 8px;
 
   display: flex;
   flex-direction: column;
@@ -35,6 +36,14 @@
   }
 
   .container_abre_secao {
+    .remove_number {
+      .background_number:first-child {
+        &::before {
+          display: none !important;
+        }
+      }
+    }
+
     .background_number {
       background: $secoes_ingles  !important;
     }
@@ -71,6 +80,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_integrate;
+        content: counter(i_can_integrate, decimal) "";
+      }
+    }
   }
 
   &.i_can_listen {
@@ -83,6 +101,15 @@
         &::before {
           content: 'I can listen';
         }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_listen;
+        content: counter(i_can_listen, decimal) "";
       }
     }
   }
@@ -99,6 +126,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_understand;
+        content: counter(i_can_understand, decimal) "";
+      }
+    }
   }
 
   &.i_can_classify {
@@ -111,6 +147,15 @@
         &::before {
           content: 'I can classify';
         }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_classify;
+        content: counter(i_can_classify, decimal) "";
       }
     }
   }
@@ -127,6 +172,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_rewrite;
+        content: counter(i_can_rewrite, decimal) "";
+      }
+    }
   }
 
   &.i_can_write {
@@ -139,6 +193,15 @@
         &::before {
           content: 'I can write';
         }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_write;
+        content: counter(i_can_write, decimal) "";
       }
     }
   }
@@ -155,6 +218,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_use;
+        content: counter(i_can_use, decimal) "";
+      }
+    }
   }
 
   &.i_can_do_more {
@@ -167,6 +239,15 @@
         &::before {
           content: 'I can do more';
         }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_do_more;
+        content: counter(i_can_do_more, decimal) "";
       }
     }
   }
@@ -183,6 +264,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_say;
+        content: counter(i_can_say, decimal) "";
+      }
+    }
   }
 
   &.CLIL_Climb {
@@ -195,6 +285,15 @@
         &::before {
           content: 'CLIL Climb';
         }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: CLIL_Climb;
+        content: counter(CLIL_Climb, decimal) "";
       }
     }
   }
@@ -211,6 +310,15 @@
         }
       }
     }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: break_it_down;
+        content: counter(break_it_down, decimal) "";
+      }
+    }
   }
 
   &.reading_the_lines {
@@ -224,6 +332,15 @@
           content: 'Reading the lines';
         }
       }
+    }
+  }
+
+  .background_number:first-child {
+    &::before {
+      color: #ffffff;
+      font-weight: 700;
+      counter-increment: reading_the_lines;
+      content: counter(reading_the_lines, decimal) "";
     }
   }
 }
