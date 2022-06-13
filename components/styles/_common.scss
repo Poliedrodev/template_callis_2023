@@ -13,11 +13,77 @@ $textColor: #000000;
 
 
 /* Variações de cores */
+/* dropdown */
+$curiosidade_100: #DD7500;
+$curiosidade_50: #EEBA80;
+$curiosidade_20: #FCF1E5;
+
+$mat_em_questao_100: #575756;
+$mat_em_questao_50: #ABABAB;
+$mat_em_questao_20: #EEEEEE;
+
+$veja_tambem_100: #978D69;
+$veja_tambem_50: #CBC6B4;
+$veja_tambem_20: #F7F6F3;
+
+$conheca_100: #6B471E;
+$conheca_50: #B5A38F;
+$conheca_20: #F0ECE8;
+
 /* Artes */
 $art_cor100: #63B9E9;
 $art_cor50: #B0DBF3;
 $art_cor10: #EEF7FC;
 
+$saiba_mais_100: #E94F35;
+$saiba_mais_50: #F4A79A;
+$saiba_mais_20: #FDEDEA;
+
+$all_ears_100: #3AAA35;
+$all_ears_50: #9DD59A;
+$all_ears_20: #EAF6E9;
+
+$where_else_100: #522057;
+$where_else_50: #A990AB;
+$where_else_20: #EDE8EE;
+
+
+/* Ciências */
+$cie_cor1: #3AAA35;
+$cie_cor2: #9BD499;
+$cie_cor3: #EAF6E9;
+
+
+/* Geografia */
+$geo_cor1: #0080C9;
+$geo_cor2: #7EBFE3;
+$geo_cor3: #E4F1F9;
+
+/* Artes */
+$art_cor1: #63B9E9;
+$art_cor2: #B0DBF3;
+$art_cor3: #EEF7FC;
+
+/* História */
+$his_cor1: #8A1E82;
+$his_cor2: #C48DC0;
+$his_cor3: #F2E7F1;
+
+/* Língua Inglesa */
+$ing_cor1: #E94E1B;
+$ing_cor2: #F3A58C;
+$ing_cor3: #FCECE6;
+
+/* Língua Portuguesa */
+$por_cor1: #E30613;
+$por_cor2: #F18288;
+$por_cor3: #FCE4E6;
+
+
+/* Matemática */
+$mat_cor1: #FFD500;
+$mat_cor2: #FFE97E;
+$mat_cor3: #FFFAE4;
 
 /* Ciências */
 $cie_cor100: #3AAA35;
@@ -85,6 +151,20 @@ $seg_hum_cor2: #208F6D;
 $seg_hum_cor3: #D7EDE3;
 $seg_hum_cor4: #EEF7F3;
 
+// abre secoes
+$atividades: #B47E20;
+$desafio: #522057;
+$reflexão: #1C3055;
+$sintese: #881D12;
+$pontos_e_letras: #98134B;
+$leitura_complementar: #98134B;
+$arte_e_voce: #B47E20;
+$diario_do_artista: #B47E20;
+$secoes_ingles: #E94E1B;
+
+// Question
+$fontSizeQuestion: 18px;
+$fontSizeIndiceQuestion: 18px;
 
 /* Outros */
 $fontPrincipal: 'Red Hat Display', 'arial';
@@ -101,12 +181,13 @@ $phone-max-width: 481px;
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
+
 @mixin webkit-prefix($property, $value) {
-    -webkit-#{$property}: $value;
-    #{$property}: $value;
+  -webkit-#{$property}: $value;
+  #{$property}: $value;
 }
 
 /* Font embeds, examples see: https://www.google.com/fonts */
@@ -117,67 +198,78 @@ $phone-max-width: 481px;
 @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap);
 
 /* Article view style */
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font: $defaultFontSize $fontPrincipal;
-    color: $textColor;
-    background-color: $bodyBackground;
-    font-weight: $defaultFontWeight;
-    word-wrap: break-word;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    -webkit-overflow-scrolling: touch;
-    :focus {
-        outline: none;
-    }
+.body-book,
+.body {
+  padding: 0;
+  margin: 0;
+  font: $defaultFontSize $fontPrincipal;
+  color: $textColor;
+  background-color: $bodyBackground;
+  font-weight: $defaultFontWeight;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-overflow-scrolling: touch;
+
+  :focus {
+    outline: none;
+  }
+
+  counter-reset: atividades desafio reflexão sintese pontos_e_letras leitura_complementar arte_e_voce diario_do_artista i_can_integrate i_can_listen i_can_understand i_can_classify i_can_rewrite i_can_write i_can_use i_can_do_more i_can_say CLIL_Climb break_it_down reading_the_lines;
 }
 
-body {
-    max-width: $max-width;
-    padding: 0 5px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: hidden;
-    &::after {
-        content: ' ';
-        display: block;
-        clear: both;
-    }
+.body {
+  max-width: $max-width;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+
+  &::after {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
+}
+
+p,
+ol,
+li {
+  margin: 0;
 }
 
 /* Set link color */
 span[data-text-edit-color] {
-    a {
-        color: inherit;
-    }
+  a {
+    color: inherit;
+  }
 }
 
 /* Components style */
 /* Shared style for text related components: title, subtitle, intro, body and footer */
 .text {
-    display: block;
-    margin: 34px auto;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 0;
+  display: block;
+  margin: 34px auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
 }
 
 /* Implements text-align property values. */
 ._align-right {
-    text-align: right;
+  text-align: right;
 }
+
 ._align-middle {
-    text-align: center;
+  text-align: center;
 }
 
 /* media query */
 @media (max-width: $screen-sm-max) {
-    .text {
-        font-size: 17px;
-        line-height: 1.65;
-    }
+  .text {
+    font-size: 17px;
+    line-height: 1.65;
+  }
 }
 
 /* Woodwing Inception internal style.
@@ -185,89 +277,165 @@ span[data-text-edit-color] {
  * Please don't change this style class
  */
 .hero-js {
+  height: 100%;
+
+  .body {
     height: 100%;
-    body {
-        height: 100%;
+  }
+
+  ._hero-bg-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    ._hero-bg-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      transition-property: opacity;
+      transition-timing-function: linear;
+      transition-duration: $speed * 2;
+
+      &._current {
+        opacity: 1;
+      }
     }
-    ._hero-bg-box {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        pointer-events: none;
-        overflow: hidden;
-        ._hero-bg-item {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0;
-            transition-property: opacity;
-            transition-timing-function: linear;
-            transition-duration: $speed * 2;
-            &._current {
-                opacity: 1;
-            }
-        }
-    }
-    ._hero-content-box {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+  }
+
+  ._hero-content-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    ._hero-content-wrapper {
+      background-color: $bodyBackground;
+
+      ._hero-content-body {
+        max-width: $max-width;
+        padding: 0 5px;
+        margin-left: auto;
+        margin-right: auto;
         overflow-x: hidden;
-        overflow-y: auto;
-        ._hero-content-wrapper {
-            background-color: $bodyBackground;
-            ._hero-content-body {
-                max-width: $max-width;
-                padding: 0 5px;
-                margin-left: auto;
-                margin-right: auto;
-                overflow-x: hidden;
-                &::after {
-                    content: ' ';
-                    display: block;
-                    clear: both;
-                }
-            }
+
+        &::after {
+          content: ' ';
+          display: block;
+          clear: both;
         }
+      }
     }
+  }
+
+  &.hero-js-android {
+    .body {
+      max-width: none;
+    }
+
+    ._hero-bg-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      overflow: hidden;
+
+      ._hero-bg-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0;
+        transition-property: opacity;
+        transition-timing-function: linear;
+        transition-duration: $speed * 2;
+
+        &._current {
+          opacity: 1;
+        }
+      }
+    }
+
+    ._hero-content-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      ._hero-content-wrapper {
+        background-color: $bodyBackground;
+
+        ._hero-content-body {
+          max-width: $max-width;
+          padding: 0 5px;
+          margin-left: auto;
+          margin-right: auto;
+          overflow-x: hidden;
+
+          &::after {
+            content: ' ';
+            display: block;
+            clear: both;
+          }
+        }
+      }
+    }
+
     &.hero-js-android {
-        body {
-            max-width: none;
-        }
-        ._hero-bg-box {
-            position: fixed;
-        }
-        ._hero-content-box {
-            position: relative;
-            margin: 0 -5px;
-            top: auto;
-            right: auto;
-            bottom: auto;
-            left: auto;
-        }
+      .body {
+        max-width: none;
+      }
+
+      ._hero-bg-box {
+        position: fixed;
+      }
+
+      ._hero-content-box {
+        position: relative;
+        margin: 0 -5px;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+      }
     }
+  }
 }
 
 // Keyframes, see mixin triple-blinking-spans()
 @keyframes kf-triple-blinking-spans {
-    0% {
-        opacity: 0.2;
-    }
-    20% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.2;
-    }
+  0% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
 }
 
 /**
@@ -279,68 +447,382 @@ span[data-text-edit-color] {
  }
  */
 @mixin triple-blinking-spans() {
-    // blink the dots after the label
-    span {
-        animation-name: kf-triple-blinking-spans;
-        animation-duration: 1.4s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: both;
-    }
-    span:nth-child(2) {
-        animation-delay: 0.2s;
-    }
-    span:nth-child(3) {
-        animation-delay: 0.4s;
-    }
+
+  // blink the dots after the label
+  span {
+    animation-name: kf-triple-blinking-spans;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
 }
 
 /**
  Additional styles for .social and .video components
  */
 @mixin media-component-states() {
-    &.loading,
-    &.error {
-        font-weight: 300;
-        font-size: $defaultFontSize;
-        font-style: italic;
-        line-height: 1.6;
-        padding: 0.5em;
-    }
-    &.loading {
-        color: #888888;
-        background-color: rgb(252, 252, 252);
-        text-transform: lowercase;
 
-        @include triple-blinking-spans();
-        span {
-            padding-left: 0.2em;
-            font-weight: bold;
-            color: #666666;
+  &.loading,
+  &.error {
+    font-weight: 300;
+    font-size: $defaultFontSize;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 0.5em;
+  }
+
+  &.loading {
+    color: #888888;
+    background-color: rgb(252, 252, 252);
+    text-transform: lowercase;
+
+    @include triple-blinking-spans();
+
+    span {
+      padding-left: 0.2em;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+
+  &.error {
+    background-color: rgba(169, 68, 66, 0.05);
+    color: rgba(169, 68, 66, 0.8);
+
+    >div {
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      div:first-child {
+        display: inline-block;
+        flex: 1 auto;
+        color: rgba(169, 68, 66, 0.5);
+        // horizontally align and size the icon to equal the drop icon of the hero component
+        font-size: 30px;
+        padding: 0 40px 0 40px;
+      }
+
+      >div:last-child {
+        display: inline-block;
+        flex: 1 100%;
+      }
+    }
+  }
+}
+
+.body {
+  max-width: $max-width;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+
+  &::after {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
+}
+
+p,
+ol,
+li {
+  margin: 0;
+}
+
+/* Set link color */
+span[data-text-edit-color] {
+  a {
+    color: inherit;
+  }
+}
+
+/* Components style */
+/* Shared style for text related components: title, subtitle, intro, body and footer */
+.text {
+  display: block;
+  margin: 34px auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+}
+
+/* Implements text-align property values. */
+._align-right {
+  text-align: right;
+}
+
+._align-middle {
+  text-align: center;
+}
+
+/* media query */
+@media (max-width: $screen-sm-max) {
+  .text {
+    font-size: 17px;
+    line-height: 1.65;
+  }
+}
+
+/* Woodwing Inception internal style.
+ * Class for the hero component in the iOS devices.
+ * Please don't change this style class
+ */
+.hero-js {
+  height: 100%;
+
+  .body,
+  .body-book {
+    height: 100%;
+  }
+
+  ._hero-bg-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    ._hero-bg-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      transition-property: opacity;
+      transition-timing-function: linear;
+      transition-duration: $speed * 2;
+
+      &._current {
+        opacity: 1;
+      }
+    }
+  }
+
+  ._hero-content-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    ._hero-content-wrapper {
+      background-color: $bodyBackground;
+
+      ._hero-content-body {
+        max-width: $max-width;
+        padding: 0 5px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+
+        &::after {
+          content: ' ';
+          display: block;
+          clear: both;
         }
+      }
     }
-    &.error {
-        background-color: rgba(169, 68, 66, 0.05);
-        color: rgba(169, 68, 66, 0.8);
+  }
 
-        > div {
-            display: flex;
-            -webkit-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-            align-items: center;
+  &.hero-js-android {
 
-            div:first-child {
-                display: inline-block;
-                flex: 1 auto;
-                color: rgba(169, 68, 66, 0.5);
-                // horizontally align and size the icon to equal the drop icon of the hero component
-                font-size: 30px;
-                padding: 0 40px 0 40px;
-            }
+    .body,
+    .body-book {
+      max-width: none;
+    }
 
-            > div:last-child {
-                display: inline-block;
-                flex: 1 100%;
-            }
+    ._hero-bg-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      overflow: hidden;
+
+      ._hero-bg-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0;
+        transition-property: opacity;
+        transition-timing-function: linear;
+        transition-duration: $speed * 2;
+
+        &._current {
+          opacity: 1;
         }
+      }
     }
+
+    ._hero-content-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      ._hero-content-wrapper {
+        background-color: $bodyBackground;
+
+        ._hero-content-body {
+          max-width: $max-width;
+          padding: 0 5px;
+          margin-left: auto;
+          margin-right: auto;
+          overflow-x: hidden;
+
+          &::after {
+            content: ' ';
+            display: block;
+            clear: both;
+          }
+        }
+      }
+    }
+
+    &.hero-js-android {
+
+      .body,
+      .body-book {
+        max-width: none;
+      }
+
+      ._hero-bg-box {
+        position: fixed;
+      }
+
+      ._hero-content-box {
+        position: relative;
+        margin: 0 -5px;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+      }
+    }
+  }
+}
+
+// Keyframes, see mixin triple-blinking-spans()
+@keyframes kf-triple-blinking-spans {
+  0% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/**
+ Let three child spans blink.
+ Use:
+ <div>Loading<span>.</span><span>.</span><span>.</span></div>
+ div {
+  @include triple-blinking-spans();
+ }
+ */
+@mixin triple-blinking-spans() {
+
+  // blink the dots after the label
+  span {
+    animation-name: kf-triple-blinking-spans;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+}
+
+/**
+ Additional styles for .social and .video components
+ */
+@mixin media-component-states() {
+
+  &.loading,
+  &.error {
+    font-weight: 300;
+    font-size: $defaultFontSize;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 0.5em;
+  }
+
+  &.loading {
+    color: #888888;
+    background-color: rgb(252, 252, 252);
+    text-transform: lowercase;
+
+    @include triple-blinking-spans();
+
+    span {
+      padding-left: 0.2em;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+
+  &.error {
+    background-color: rgba(169, 68, 66, 0.05);
+    color: rgba(169, 68, 66, 0.8);
+
+    >div {
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      div:first-child {
+        display: inline-block;
+        flex: 1 auto;
+        color: rgba(169, 68, 66, 0.5);
+        // horizontally align and size the icon to equal the drop icon of the hero component
+        font-size: 30px;
+        padding: 0 40px 0 40px;
+      }
+
+      >div:last-child {
+        display: inline-block;
+        flex: 1 100%;
+      }
+    }
+  }
 }

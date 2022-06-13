@@ -1,0 +1,426 @@
+/*  */
+
+.container_collapsible_voce_e {
+  margin: 1.5rem 0;
+
+  .collapsible-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem !important;
+    color: white;
+    white-space: nowrap;
+  }
+
+  &.matematica {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $mat_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $mat_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $mat_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $mat_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $mat_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $mat_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $mat_cor3;
+    }
+  }
+
+  &.ciencias {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $cie_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $cie_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $cie_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $cie_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $cie_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $cie_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $cie_cor3;
+    }
+  }
+
+  &.artes {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $art_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $art_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $art_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $art_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $art_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $art_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $art_cor3;
+    }
+  }
+
+  &.lingua_portuguesa {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $por_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $por_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $por_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $por_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $por_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $por_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $por_cor3;
+    }
+  }
+
+  &.historia {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $his_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $his_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $his_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $his_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $his_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $his_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $his_cor3;
+    }
+  }
+
+  &.geografia {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $geo_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $geo_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $geo_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $geo_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $geo_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $geo_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $geo_cor3;
+    }
+  }
+
+  &.lingua_inglesa {
+
+    /*  */
+    .plus {
+      --b: 3px;
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $ing_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $ing_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $ing_cor2;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $ing_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $ing_cor1 98%, transparent 98%);
+    }
+
+    .flex-icon {
+      background-color: $ing_cor2;
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $ing_cor3;
+    }
+  }
+
+  input[type='checkbox'] {
+    display: none;
+  }
+
+
+
+  .lbl-toggle-callis {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    gap: 8px;
+
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+
+
+  }
+
+  .collapsible-content-05 {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+
+  .toggle-callis:checked+.lbl-toggle-callis+.collapsible-content-05 {
+    max-height: fit-content;
+  }
+
+  .toggle-callis:checked+.lbl-toggle-callis .plus {
+    display: none;
+  }
+
+  .toggle-callis:checked+.lbl-toggle-callis .less {
+    display: block;
+  }
+
+  .less {
+    display: none;
+  }
+
+  .toggle-callis:checked+.lbl-toggle-callis {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .collapsible-content-05 .content-inner {
+    padding: 1rem 1rem;
+  }
+
+  label img {
+    width: 2rem;
+  }
+
+  .container_collapsible_voce_e h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+  }
+
+  .container_collapsible_voce_e h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+  }
+
+  .container_collapsible_voce_e p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+  }
+
+  .container_collapsible_voce_e p:not(:first-child) {
+    padding-top: 1rem;
+
+  }
+
+  .container_collapsible_voce_e .double-columned-content {
+    align-items: start;
+  }
+
+  .container_collapsible_voce_e .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .container_collapsible_voce_e .img-description {
+    padding-top: 0.5rem !important;
+    font-size: 0.75rem;
+  }
+
+  .container_collapsible_voce_e ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+  }
+
+  .collapsible-title {
+    position: relative;
+  }
+
+  .flex-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+
+}

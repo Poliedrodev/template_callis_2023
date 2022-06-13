@@ -348,5 +348,4 @@
     jQuery(document).ready(function(){
         initSlideshows();
     });
-
 })(document, window, jQuery);

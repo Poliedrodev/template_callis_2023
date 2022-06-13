@@ -1,9 +1,10 @@
 .css_03_exercicio_enunciado {
-  display: block;
+  width: 100%;
+  margin-top: 16px;
+ 
   font-family: $fontPrincipal;
   font-weight: 400;
-  color: #000000;
+  color: $textColor;
   line-height: 1.5em;
-  font-size: 18px;
-  margin-top: 31px;
+  font-size: $fontSizeQuestion;
 }

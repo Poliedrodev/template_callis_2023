@@ -1,9 +1,10 @@
 .css_03_exercicio_continuacao {
-  display: block;
+  width: 100%;
+  margin-top: 16px;
+
   font-family: $fontPrincipal;
   font-weight: 400;
-  color: #000000;
-  font-size: 18px;
-  margin-top: 12px;
+  color: $textColor;
   line-height: 1.5em;
+  font-size: $fontSizeQuestion;
 }
