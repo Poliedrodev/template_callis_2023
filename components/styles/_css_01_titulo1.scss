@@ -1,37 +1,34 @@
 .css_01_titulo1 {
 
-  /* Características do texto */
-  font-family: $fontPrincipal;
+  font-family: "Red Hat Display", "arial";
   font-size: 2.5rem;
   font-weight: 300;
   color: #F8F8F8;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 40px 1fr;
   position: relative;
-  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
   margin-top: 40px;
+  padding: 0px 10px;
 
   .estilo_title {
+    line-height: 1.5;
     font-size: 2.5rem;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .icone_tituo1cap {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg");
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg);
     width: 42px;
     height: 40px;
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: left;
-    position: absolute;
-    z-index: 2;
-    align-items: left;
-    margin: 0;
     background-position: center;
-    left: 10px;
-    top: 10px;
+    margin-top: 10px;
 
   }
 
@@ -112,8 +109,4 @@
 .alinhamento {
   display: flex;
   align-items: center;
-}
-
-.margemint {
-  padding: 57px;
 }

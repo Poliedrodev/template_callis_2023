@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.articleContent').each(function () {
-        //Inicio do script para o componente
+    $('.body').each(function () {        //Inicio do script para o componente
+
         var containerCollapsible = $('.container_collapsible');
         containerCollapsible.on('click', function () {
             console.log('02');

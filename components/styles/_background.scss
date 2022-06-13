@@ -1,64 +1,68 @@
 .body-book {
+  background-position: center;
+  background-attachment: fixed;
+
   &.artes {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-artes.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #f4fafe;
   }
 
   &.atividades {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-atividades.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #faf6ef;
   }
 
   &.ciencias {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-ciencias.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #f1f9f0;
   }
 
   &.geografia {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-geografia.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #edf6fb;
   }
 
   &.historia {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-historia.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #f7eff6;
   }
 
   &.lingua_inglesa {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-ingles.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #fef2ef;
   }
 
   &.lingua_portuguesa {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-portugues.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #fdedee
   }
 
   &.matematica {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-matematica.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #fffced;
   }
 
-  &.sintese{
+  &.sintese {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/Fundo-sintese.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-color: #f6edec;
   }
+
 }
