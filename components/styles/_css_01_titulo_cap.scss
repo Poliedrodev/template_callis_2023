@@ -11,13 +11,13 @@
   position: relative;
   text-align: center;
   margin-top: 40px;
-  gap: 8px;
+  gap: 11px;
   grid-template-columns: 44px 1fr;
 
   .estilo_title{
     font-size: 2.5rem;
     font-weight: 300;
-    margin: 10 0 0 0;
+    margin: 0;
     text-align: left;
   }
   .icone_tituo1cap{
@@ -38,7 +38,6 @@
     }
   }
 
-
   &.ciencias {
     .icone_tituo1cap {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_CIE.svg");
@@ -54,15 +53,12 @@
     }
   }
 
-
-
   &.historia {
     .icone_tituo1cap {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/01_TITULO_CAP_HIS.svg");
 
     }
   }
-
 
   &.lingua_inglesa {
     .icone_tituo1cap {
@@ -78,8 +74,6 @@
 
     }
   }
-
-
 
   &.matematica {
     .icone_tituo1cap {
