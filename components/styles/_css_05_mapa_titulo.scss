@@ -5,6 +5,7 @@
   padding: 0;
   margin-top: 16px;
   width: 100%;
+ 
 
   .section_mapa_titulo {
     display: flex;
@@ -15,9 +16,10 @@
 
     .mapa_titulo {
       font-family: $fontPrincipal;
-      font-weight: 400;
-      font-size: 24px;
+      font-weight: 600;
+      font-size: 20px;
       color: white;
+      text-align: center;
     }
 
     .mapa_icon {

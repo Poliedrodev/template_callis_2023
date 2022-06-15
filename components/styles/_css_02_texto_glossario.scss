@@ -10,19 +10,19 @@
   border: solid 2px #000000;
 
   &.artes {
-    border: solid 2px $art_cor100  !important;
+    border: solid 2px $art_cor100;
   }
 
   &.lingua_inglesa {
-    border: solid 2px $ing_cor100  !important;
+    border: solid 2px $ing_cor100;
   }
 
   &.lingua_portuguesa {
-    border: solid 2px $por_cor100  !important;
+    border: solid 2px $por_cor100;
   }
 
   &.matematica {
-    border: solid 2px $mat_cor100  !important;
+    border: solid 2px $mat_cor100;
   }
 
 }

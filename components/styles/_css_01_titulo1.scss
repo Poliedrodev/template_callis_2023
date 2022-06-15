@@ -1,6 +1,7 @@
 .css_01_titulo1 {
 
-  font-family: "Red Hat Display", "arial";
+  /* Características do texto */
+  font-family:$fontPrincipal;
   font-size: 2.5rem;
   font-weight: 300;
   color: #F8F8F8;
@@ -8,21 +9,20 @@
   grid-template-columns: 40px 1fr;
   position: relative;
   align-items: flex-start;
-  gap: 8px;
+  gap: 11px;
   margin-top: 40px;
-  padding: 0px 10px;
+  padding: 0px 10px 0px 10px;;
 
   .estilo_title {
     line-height: 1.5;
     font-size: 2.5rem;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: 0px;
+ 
   }
 
-  .icone_tituo1cap {
-    background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg);
+  .icone_titulo1 {
+  
     width: 42px;
     height: 40px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   &.artes {
     background-color: $art_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_art.svg");
 
     }
@@ -49,7 +49,7 @@
   &.ciencias {
     background-color: $cie_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_cie.svg");
 
     }
@@ -58,7 +58,7 @@
   &.geografia {
     background-color: $geo_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_geo.svg");
 
     }
@@ -69,7 +69,7 @@
   &.historia {
     background-color: $his_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_his.svg");
 
     }
@@ -79,7 +79,7 @@
   &.lingua_inglesa {
     background-color: $ing_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_ing.svg");
 
     }
@@ -89,24 +89,10 @@
   &.lingua_portuguesa {
     background-color: $por_cor100;
 
-    .icone_tituo1cap {
+    .icone_titulo1 {
       background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_lpo.svg");
 
     }
   }
 
-  &.matematica {
-    background-color: $mat_cor100;
-
-    .icone_tituo1cap {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_mat.svg");
-
-    }
-  }
-
-}
-
-.alinhamento {
-  display: flex;
-  align-items: center;
 }
