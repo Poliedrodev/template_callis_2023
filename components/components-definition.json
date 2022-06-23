@@ -1907,7 +1907,6 @@
       },
       "properties": [
         "position",
-        "style_image",
         "width",
         "style",
         "inside-caption",
@@ -2495,7 +2494,7 @@
     {
       "name": "container_collapsible",
       "icon": "icons/components/container.svg",
-      "label": "Container Collapsible",
+      "label": "Boxes Callis",
       "properties": [
         "style_dropdown",
         "text-align",
@@ -2506,7 +2505,7 @@
     {
       "name": "container_collapsible_voce_e",
       "icon": "icons/components/container.svg",
-      "label": "Você é...",
+      "label": "Boxes Você é..",
       "properties": [
         "style",
         "text-align",
