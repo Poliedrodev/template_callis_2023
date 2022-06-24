@@ -3467,6 +3467,17 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
+                "0": "Coesão e Coerência"
+              }
+            },
+            "value": "coesao_e_coerencia"
+          },
+
+          
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
                 "0": "Leitura complementar"
               }
             },
