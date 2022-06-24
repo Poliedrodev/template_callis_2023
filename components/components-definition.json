@@ -1016,6 +1016,23 @@
       }
     },
     {
+      "name": "css_06_boxe_highlight",
+      "icon": "icons/components/icon_02_texto_glossario.svg",
+      "label": "06 Texto Highlight",
+      "properties": [
+        "style",
+        "text-align",
+        "position",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "css_06_boxe_texto1",
       "icon": "icons/components/icon_06_boxe_texto1.svg",
       "label": "06 Boxe Texto 1",
@@ -3003,6 +3020,7 @@
         "css_06_boxe_exercicio",
         "css_06_boxe_item",
         "css_06_boxe_texto_citado",
+        "css_06_boxe_highlight",
         "css_06_boxe_texto1",
         "css_06_boxe_texto2",
         "css_06_boxe_texto3",
