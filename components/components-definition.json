@@ -2536,6 +2536,21 @@
       }
     },
     {
+      "name": "container_collapsible_conheca",
+      "icon": "icons/components/container.svg",
+      "label": "Box Conheça...",
+      "properties": [
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "caption": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "secao",
       "icon": "icons/components/icon_07_secao_titulo1.svg",
       "selectionMethod": "handle",
@@ -3029,7 +3044,8 @@
         "css_06_boxe_titulo2",
         "css_06_boxe_titulo3",
         "container_collapsible",
-        "container_collapsible_voce_e"
+        "container_collapsible_voce_e",
+        "container_collapsible_conheca"
       ]
     },
     {
@@ -3397,15 +3413,7 @@
             },
             "value": "all_ears"
           },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "Conheça..."
-              }
-            },
-            "value": "conheca"
-          },
+          
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3415,6 +3423,98 @@
             },
             "value": "curiosidade"
           },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Questão invertida"
+              }
+            },
+            "value": "questao_invertida"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Aplicando o assunto"
+              }
+            },
+            "value": "aplicando_o_assunto"
+          },
+
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Conheça o Artista"
+              }
+            },
+            "value": "conheca_o_artista"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "De onde vem a palavra"
+              }
+            },
+            "value": "de_onde_vem_a_palavra"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Olho na arte"
+              }
+            },
+            "value": "olho_na_arte"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Arte e ciências"
+              }
+            },
+            "value": "arte_e_ciencias"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "I mean"
+              }
+            },
+            "value": "i_mean"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "What's new"
+              }
+            },
+            "value": "whats_new"
+          },
+
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "English in classroom"
+              }
+            },
+            "value": "english_in_classroom"
+          },
+
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
