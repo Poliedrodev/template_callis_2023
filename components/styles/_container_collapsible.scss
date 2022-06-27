@@ -405,6 +405,460 @@
       background-color: $veja_tambem_20;
     }
   }
+   
+
+  &.questao_invertida {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'Questão Invertida';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $questao_invertida_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $questao_invertida_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $questao_invertida_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $questao_invertida_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $questao_invertida_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $questao_invertida_20;
+    }
+  }
+
+  &.conheca_o_artista {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'Conheça o artista';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $questao_invertida_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $questao_invertida_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $questao_invertida_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $questao_invertida_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $questao_invertida_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $questao_invertida_20;
+    }
+  }
+
+   &.aplicando_o_assunto {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'Aplicando o assunto';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $aplicando_o_assunto_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $aplicando_o_assunto_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $aplicando_o_assunto_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $aplicando_o_assunto_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $aplicando_o_assunto_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $aplicando_o_assunto_20;
+    }
+  }
+
+  &.i_mean {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'I mean';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $aplicando_o_assunto_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $aplicando_o_assunto_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $aplicando_o_assunto_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $aplicando_o_assunto_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $aplicando_o_assunto_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $aplicando_o_assunto_20;
+    }
+  }
+
+
+  &.de_onde_vem_a_palavra {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'De onde vem a palavra';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $de_onde_vem_a_palavra_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $de_onde_vem_a_palavra_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $de_onde_vem_a_palavra_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $de_onde_vem_a_palavra_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $de_onde_vem_a_palavra_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $de_onde_vem_a_palavra_20;
+    }
+  }
+
+  &.whats_new {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: "What's new";
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $de_onde_vem_a_palavra_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $de_onde_vem_a_palavra_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $de_onde_vem_a_palavra_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $de_onde_vem_a_palavra_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $de_onde_vem_a_palavra_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $de_onde_vem_a_palavra_20;
+    }
+  }
+
+  &.olho_na_arte {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'Olho na arte';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $olho_na_arte_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $olho_na_arte_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $olho_na_arte_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $olho_na_arte_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $olho_na_arte_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $olho_na_arte_20;
+    }
+  }
+
+  &.english_in_classroom {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'English in classroom';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $olho_na_arte_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $olho_na_arte_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $olho_na_arte_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $olho_na_arte_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $olho_na_arte_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $olho_na_arte_20;
+    }
+   }
+
+  &.arte_e_ciencias {
+    .collapsible-title::before {
+      padding: 0 !important;
+      font-size: 1.5rem !important;
+      font-weight: 400;
+      color: white;
+      content: 'Arte e Ciências';
+      white-space: nowrap;
+      position: absolute;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    /*  */
+    .plus {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $arte_e_ciencias_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $arte_e_ciencias_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+    }
+
+    .less {
+      --b: 3px;
+      /* the thickness */
+      height: 24px;
+      width: 24px;
+      /* the size */
+      aspect-ratio: 1/1;
+      border: 8px solid $arte_e_ciencias_50;
+      /* the outer space */
+      background:
+        conic-gradient(from 90deg at var(--b) var(--b), $arte_e_ciencias_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    }
+
+    .lbl-toggle-callis {
+      background: linear-gradient(45deg, $arte_e_ciencias_100 98%, transparent 98%);
+    }
+
+    .collapsible-content-05 .content-inner {
+      background-color: $arte_e_ciencias_20;
+    }
+  }
+
+  }
 
 
   input[type='checkbox'] {
@@ -524,4 +978,3 @@
     width: 40px;
   }
 
-}

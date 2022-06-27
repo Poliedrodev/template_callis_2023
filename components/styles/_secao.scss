@@ -100,6 +100,46 @@
     }
   }
 
+  &.coesao_e_coerencia {
+    color: $pontos_e_letras;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_05.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Coesão & Coerência';
+        }
+      }
+    }
+
+    .line {
+      background-color: $pontos_e_letras;
+
+      &::after {
+        background: $pontos_e_letras;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $pontos_e_letras  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: pontos_e_letras;
+          content: counter(pontos_e_letras, decimal) "";
+        }
+      }
+    }
+
+
+  }
 
 
   &.desafio {
