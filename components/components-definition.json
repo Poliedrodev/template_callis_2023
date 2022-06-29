@@ -2512,6 +2512,7 @@
     {
       "name": "container_collapsible",
       "icon": "icons/components/container.svg",
+      "allowNesting": "yes",
       "label": "Boxes Callis",
       "properties": [
         "style_dropdown",
@@ -2524,6 +2525,7 @@
       "name": "container_collapsible_voce_e",
       "icon": "icons/components/container.svg",
       "label": "Boxes Você é..",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -2893,12 +2895,7 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
+      ]
     },
     {
       "name": "css_02_texto_bullet_item_texto",
