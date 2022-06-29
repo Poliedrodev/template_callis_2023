@@ -2554,7 +2554,6 @@
     {
       "name": "secao",
       "icon": "icons/components/icon_07_secao_titulo1.svg",
-      "selectionMethod": "handle",
       "allowNesting": "yes",
       "label": {
         "key": "Abre de seções"
@@ -2859,7 +2858,8 @@
     {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/icon_02_texto_bullet.svg",
-      "label": "02 Texto Bullet",
+      "allowNesting":"yes",
+      "label": "Container 02 Texto Bullet",
       "properties": [
         "style",
         "text-align",
@@ -2887,6 +2887,7 @@
       "name": "css_02_texto_bullet_itens",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
+      "allowNesting":"yes",
       "properties": [
         "style",
         "text-align",
@@ -2903,6 +2904,7 @@
       "name": "css_02_texto_bullet_item_texto",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
+      "allowNesting":"no",
       "properties": [
         "style",
         "text-align",

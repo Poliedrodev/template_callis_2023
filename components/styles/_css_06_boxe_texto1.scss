@@ -1,24 +1,8 @@
 .css_06_boxe_texto1 {
   display: block;
   font-size: 16px;
-  color: $por_cor50;
+  color: #000;
   font-family: $fontPrincipal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5em;
-
-  &.artes {
-    color: $art_cor50;
-  }
-
-  &.lingua_inglesa {
-    color: $ing_cor50;
-  }
-
-  &.lingua_portuguesa {
-    color: $por_cor50;
-  }
-
-  &.matematica {
-    color: $mat_cor50;
-  }
 }
