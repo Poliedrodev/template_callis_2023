@@ -2914,7 +2914,24 @@
           "stripStylingOnPaste": true
         }
       }
+    },
+    {
+      "name": "css_02_texto_bullet_item_texto_citado",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Texto Bullet Citado",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     }
+
   ],
   "groups": [
     {
@@ -2957,6 +2974,7 @@
       "components": [
         "css_02_texto_bullet",
         "css_02_texto_bullet_item_texto",
+        "css_02_texto_bullet_item_texto_citado",
         "css_02_texto_citado_fonte",
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
