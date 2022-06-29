@@ -74,6 +74,11 @@
       padding-bottom: 0 !important;
       border-bottom: 0 !important;
     }
+    [doc-editable] .empty-editable{
+      background-color: orange;
+      min-width: 5px;
+      min-height: 3px;
+    }
   }
 
 }
