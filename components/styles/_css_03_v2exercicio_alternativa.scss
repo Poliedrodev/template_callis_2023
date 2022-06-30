@@ -15,7 +15,7 @@
   }
 
   
-  &.item_romano_itens .css_03_2exercicio_alternativa_item {
+  &.item_romano_itens .css_03_v2exercicio_alternativa_item {
     &::before {
       font-family: $fontPrincipal;
       font-size: $fontSizeIndiceQuestion;
@@ -27,21 +27,21 @@
     }
   }
 
-  &.itens .css_03_2exercicio_alternativa_item {
+  &.itens .css_03_v2exercicio_alternativa_item {
     &::before {
       counter-increment: list;
       content: counter(list, decimal) ".";
     }
   }
 
-  &.item_romano_itens .css_03_2exercicio_alternativa_item {
+  &.item_romano_itens .css_03_v2exercicio_alternativa_item {
     &::before {
       counter-increment: list;
       content: counter(list, upper-roman) ".";
     }
   }
 
-  &.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item {
+  &.alternativa_assinalar_itens .css_03_v2exercicio_alternativa_item {
     &::after {
       font-family: $fontPrincipal;
       font-size: 20px;

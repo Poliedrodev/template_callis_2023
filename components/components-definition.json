@@ -2858,6 +2858,66 @@
       }
     },
     {
+      "name": "css_03_v2exercicio_alternativa",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Estilos de Alternativas V.2",
+      "allowNesting": "yes",
+      "properties": [
+        "styles-type-list",
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_03_v2exercicio_alternativa_item": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Alternativa",
+              "name": "Alternativa",
+              "components": [
+                "css_03_v2exercicio_alternativa_item"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_03_v2exercicio_alternativa_item",
+      "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+      "label": "Alternativa",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_03_v2exercicio_alternativa_item_texto",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "label": "Texto Alternativa Editável",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text_alternativa": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+
+
+
+    {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "allowNesting":"yes",
@@ -2998,10 +3058,8 @@
         "css_03_exercicio_enunciado",
         "css_03_exercicio_continuacao",
         "css_03_exercicio_alternativa_edit",
-        "css_03_exercicio_alternativa",
-        "css_03_exercicio_alternativa_assinalar",
-        "css_03_exercicio_item_romano",
-        "css_03_exercicio_item",
+        "css_03_v2exercicio_alternativa",
+        "css_03_v2exercicio_alternativa_item_texto",
         "css_03_exercicio_bullet",
         "css_03_exercicio_citado_titulo",
         "css_03_exercicio_citado",
@@ -3871,6 +3929,47 @@
               }
             },
             "value": "sintese"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },{
+      "name": "styles-type-list",
+      "label": "Escolha o tipo de lista",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens"
+              }
+            },
+            "value": "itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens Romano"
+              }
+            },
+            "value": "item_romano_itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Alternativa Assinalar"
+              }
+            },
+            "value": "alternativa_assinalar_itens"
           }
         ]
       },
