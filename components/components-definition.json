@@ -2860,7 +2860,7 @@
     {
       "name": "css_03_v2exercicio_alternativa",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
-      "label": "Estilos de Alternativas V.2",
+      "label": "Estilos de Alternativas",
       "allowNesting": "yes",
       "properties": [
         "styles-type-list",
@@ -2914,14 +2914,11 @@
         }
       }
     },
-
-
-
     {
       "name": "css_02_texto_bullet",
-      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "icon": "icons/components/container.svg",
       "allowNesting":"yes",
-      "label": "Container 02 Texto Bullet",
+      "label": "Container Texto Bullet",
       "properties": [
         "style",
         "text-align",
