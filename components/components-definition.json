@@ -1911,10 +1911,8 @@
         "position",
         "width",
         "style",
-        "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height"
+        "style_image_fit_content",
+        "inside-caption"
       ],
       "directiveOptions": {
         "caption": {
@@ -2918,7 +2916,7 @@
     {
       "name": "css_02_texto_bullet",
       "icon": "icons/components/container.svg",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "label": "Container Texto Bullet V1",
       "properties": [
         "style",
@@ -2947,7 +2945,7 @@
       "name": "css_02_texto_bullet_itens",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet V1",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -2958,7 +2956,7 @@
     {
       "name": "css_02_texto_bullet_v2",
       "icon": "icons/components/container.svg",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "label": "Container Texto Bullet",
       "properties": [
         "style",
@@ -2987,7 +2985,7 @@
       "name": "css_02_texto_bullet_itens_v2",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -2999,7 +2997,7 @@
       "name": "css_02_texto_bullet_item_texto",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
-      "allowNesting":"no",
+      "allowNesting": "no",
       "properties": [
         "style",
         "text-align",
@@ -3028,7 +3026,6 @@
         }
       }
     }
-
   ],
   "groups": [
     {
@@ -3545,7 +3542,6 @@
             },
             "value": "all_ears"
           },
-          
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3555,7 +3551,6 @@
             },
             "value": "curiosidade"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3565,7 +3560,6 @@
             },
             "value": "questao_invertida"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3575,8 +3569,6 @@
             },
             "value": "aplicando_o_assunto"
           },
-
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3586,7 +3578,6 @@
             },
             "value": "conheca_o_artista"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3596,7 +3587,6 @@
             },
             "value": "de_onde_vem_a_palavra"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3606,7 +3596,6 @@
             },
             "value": "olho_na_arte"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3616,7 +3605,6 @@
             },
             "value": "arte_e_ciencias"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3626,7 +3614,6 @@
             },
             "value": "i_mean"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3636,7 +3623,6 @@
             },
             "value": "whats_new"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3646,7 +3632,6 @@
             },
             "value": "english_in_classroom"
           },
-
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3853,7 +3838,6 @@
             },
             "value": "_20"
           }
-        
         ]
       },
       "dataType": "styles"
@@ -3920,8 +3904,6 @@
             },
             "value": "coesao_e_coerencia"
           },
-
-          
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -4170,7 +4152,42 @@
         ]
       },
       "dataType": "styles"
-    },{
+    },
+    
+    {
+      "name": "style_image_fit_content",
+      "label": "Ajustar tamanho da imagem",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real"
+              }
+            },
+            "value": "_fit_content"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real ao meio"
+              }
+            },
+            "value": "_fit_content_margin_auto"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
       "name": "styles-type-list",
       "label": "Escolha o tipo de lista",
       "control": {
