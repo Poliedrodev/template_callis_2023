@@ -2539,6 +2539,23 @@
       }
     },
     {
+      "name": "container_collapsible_unificado",
+      "icon": "icons/components/container.svg",
+      "label": "Boxes Unificado",
+      "allowNesting": "yes",
+      "properties": [
+        "style_dropdown_unificado",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "caption": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "container_collapsible_conheca",
       "icon": "icons/components/container.svg",
       "label": "Box Conheça...",
@@ -3118,6 +3135,7 @@
         "css_06_boxe_titulo3",
         "container_collapsible",
         "container_collapsible_voce_e",
+        "container_collapsible_unificado",
         "container_collapsible_conheca"
       ]
     },
@@ -3614,6 +3632,204 @@
             },
             "value": "veja_tambem"
           }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_dropdown_unificado",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "1"
+              }
+            },
+            "value": "_1"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "2"
+              }
+            },
+            "value": "_2"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "3"
+              }
+            },
+            "value": "_3"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "4"
+              }
+            },
+            "value": "_4"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "5"
+              }
+            },
+            "value": "_5"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "6"
+              }
+            },
+            "value": "_6"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "7"
+              }
+            },
+            "value": "_7"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "8"
+              }
+            },
+            "value": "_8"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "9"
+              }
+            },
+            "value": "_9"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "10"
+              }
+            },
+            "value": "_10"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "11"
+              }
+            },
+            "value": "_11"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "12"
+              }
+            },
+            "value": "_12"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "13"
+              }
+            },
+            "value": "_13"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "14"
+              }
+            },
+            "value": "_14"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "15"
+              }
+            },
+            "value": "_15"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "16"
+              }
+            },
+            "value": "_16"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "17"
+              }
+            },
+            "value": "_17"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "18"
+              }
+            },
+            "value": "_18"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "19"
+              }
+            },
+            "value": "_19"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "20"
+              }
+            },
+            "value": "_20"
+          }
+        
         ]
       },
       "dataType": "styles"
