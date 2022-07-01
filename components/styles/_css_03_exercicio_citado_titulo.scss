@@ -1,7 +1,7 @@
 .css_03_exercicio_citado_titulo {
   font-family: $fontPrincipal;
   font-weight: 700;
-  color: #000000;
+  color: $textColor !important;
   line-height: 1.5em;
   font-size: 20px;
   display: block;
