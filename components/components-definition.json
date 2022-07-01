@@ -236,22 +236,6 @@
       }
     },
     {
-      "name": "css_02_texto_bullet",
-      "icon": "icons/components/icon_02_texto_bullet.svg",
-      "label": "02 Texto Bullet",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
-    },
-    {
       "name": "css_02_texto_citado_fonte",
       "icon": "icons/components/icon_02_texto_citado_fonte.svg",
       "label": "02 Texto Citado Fonte",
@@ -2935,7 +2919,7 @@
       "name": "css_02_texto_bullet",
       "icon": "icons/components/container.svg",
       "allowNesting":"yes",
-      "label": "Container Texto Bullet",
+      "label": "Container Texto Bullet V1",
       "properties": [
         "style",
         "text-align",
@@ -2949,7 +2933,7 @@
         "main": {
           "groups": [
             {
-              "label": "Texto Bullet",
+              "label": "Texto Bullet V1",
               "name": "Texto Bullet",
               "components": [
                 "css_02_texto_bullet_itens"
@@ -2961,6 +2945,46 @@
     },
     {
       "name": "css_02_texto_bullet_itens",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Texto Bullet V1",
+      "allowNesting":"yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_02_texto_bullet_v2",
+      "icon": "icons/components/container.svg",
+      "allowNesting":"yes",
+      "label": "Container Texto Bullet",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_02_texto_bullet_itens_v2": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Texto Bullet",
+              "name": "Texto Bullet",
+              "components": [
+                "css_02_texto_bullet_itens_v2"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_02_texto_bullet_itens_v2",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
       "allowNesting":"yes",
@@ -3045,7 +3069,7 @@
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
-        "css_02_texto_bullet",
+        "css_02_texto_bullet_v2",
         "css_02_texto_bullet_item_texto",
         "css_02_texto_bullet_item_texto_citado",
         "css_02_texto_citado_fonte",
