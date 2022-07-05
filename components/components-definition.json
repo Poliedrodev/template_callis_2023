@@ -1932,6 +1932,34 @@
       }
     },
     {
+      "name": "css_04_image_callis",
+      "icon": "icons/components/image.svg",
+      "label": "Imagem Callis Professor",
+      "properties": [
+        "position",
+        "width",
+        "style",
+        "style_image_fit_content",
+        "inside-caption"
+      ],
+      "directiveOptions": {
+        "caption": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        },
+        "credit": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "image",
       "icon": "icons/components/image.svg",
       "label": {
@@ -3109,6 +3137,7 @@
       "label": "04 professor",
       "name": "04_professor",
       "components": [
+        "css_04_image_callis",
         "css_04_professor_comentario",
         "css_04_professor_resposta",
         "css_04_professor_roteiro_cd",
