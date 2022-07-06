@@ -1996,6 +1996,39 @@
       }
     },
     {
+      "name": "image_inline",
+      "icon": "icons/components/image.svg",
+      "label": "Imagem Inline",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-height-to-content"
+        },
+        "position",
+        "style",
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "edit-image",
+          "directiveKey": "image"
+        },
+        {
+          "name": "hyperlink",
+          "directiveKey": "hyperlink"
+        }
+      ],
+      "directiveOptions": {
+        "caption": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          }
+        }
+      }
+    },
+    {
       "name": "slideshow_2_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
@@ -3289,6 +3322,7 @@
       "name": "media",
       "components": [
         "image_callis",
+        "image_inline",
         "slideshow_2_images",
         "slideshow_3_images",
         "slideshow_4_images",
@@ -4682,7 +4716,11 @@
       }
     },
     "image": {
-      "image_callis": "auto"
+      "image_callis": "auto",
+      "image_inline": "auto"
+    },
+    "image_callis": {
+      "image_inline": "auto"
     }
   },
   "shortcuts": {
