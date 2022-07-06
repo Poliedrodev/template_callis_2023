@@ -217,6 +217,10 @@ $phone-max-width: 481px;
 @import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap);
 
+@font-face {  font-family: MathSymbol_JSD;
+  src: url(https://livro-digital.p4ed.com/assets/fonts/woodwing/MathSymbol_JSD-Regular.ttf);
+}
+
 /* Article view style */
 .body-book,
 .body {
@@ -795,6 +799,12 @@ span[data-text-edit-color] {
   span:nth-child(3) {
     animation-delay: 0.4s;
   }
+}
+
+span[style="text-decoration: line-through;"] {
+  font-family: 'MathSymbol_JSD' !important;
+  font-style: normal !important;
+  text-decoration: none !important;
 }
 
 /**
