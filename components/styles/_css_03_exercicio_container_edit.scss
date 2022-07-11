@@ -13,6 +13,17 @@
   font-size: $fontSizeQuestion;
   align-items: baseline;
 
+  .css_02_texto_geral1 {
+    width: 100%;
+    margin-top: 16px;
+   
+    font-family: $fontPrincipal;
+    font-weight: 400;
+    color: $textColor;
+    line-height: 1.5em;
+    font-size: $fontSizeQuestion;
+  }
+
   .content_number {
     width: 34px;
 
