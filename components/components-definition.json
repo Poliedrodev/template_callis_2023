@@ -2618,7 +2618,18 @@
       "icon": "icons/components/icon_07_secao_titulo1.svg",
       "allowNesting": "yes",
       "label": {
-        "key": "Abre de seções"
+        "key": "Abre de seções "
+      },
+      "properties": [
+        "style_abre_secoes"
+      ]
+    },
+    {
+      "name": "secao_editavel",
+      "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "allowNesting": "yes",
+      "label": {
+        "key": "Abre de seções editávels"
       },
       "properties": [
         "style_abre_secoes"
@@ -3242,7 +3253,8 @@
         "css_07_secao_titulo2",
         "css_07_secao_titulo3",
         "css_07_secao_titulo4",
-        "secao"
+        "secao",
+        "secao_editavel"
       ]
     },
     {
@@ -3993,6 +4005,15 @@
               }
             },
             "value": "diario_do_artista"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Exercicio resolvido"
+              }
+            },
+            "value": "exe_resolvido"
           }
         ]
       },
