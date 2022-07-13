@@ -1,0 +1,45 @@
+.css_06_boxe_highlight_container {
+  font-family: $fontPrincipal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: $textColor !important;
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #eeeeee;
+ 
+  &.artes {
+    background: $art_cor10 ;
+  }
+
+  &.ciencias {
+    background: $cie_cor10;
+  }
+
+  &.lingua_inglesa {
+    background: $ing_cor10;
+  }
+
+  &.lingua_portuguesa {
+    background: $por_cor10;
+    
+  }
+  &.geografia {
+    background: $geo_cor10;
+    
+  }
+  
+  &.historia {
+    background: $his_cor10;
+
+  }
+
+  &.matematica {
+    background: $mat_cor10;
+  }
+
+  & .css_06_boxe_highlight_container:first-child{
+    margin-top: 0 !important;
+  }
+
+}

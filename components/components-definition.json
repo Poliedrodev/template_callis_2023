@@ -830,11 +830,10 @@
       "name": "css_05_legenda_unidade",
       "icon": "icons/components/icon_05_legenda_unidade.svg",
       "label": "05 Legenda Unidade",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
+        "style"
       ],
       "directiveOptions": {
         "text": {
@@ -899,6 +898,12 @@
       ],
       "directiveOptions": {
         "text": {
+          "stripStylingOnPaste": true
+        },
+        "fonte": {
+          "stripStylingOnPaste": true
+        },
+        "legenda": {
           "stripStylingOnPaste": true
         }
       }
@@ -1015,6 +1020,19 @@
           "stripStylingOnPaste": true
         }
       }
+    },
+    {
+      "name": "css_06_boxe_highlight_container",
+      "icon": "icons/components/icon_02_texto_glossario.svg",
+      "label": "06 Texto Highlight Container",
+      "properties": [
+        "style",
+        "text-align",
+        "position",
+        "letter-spacing",
+        "line-height"
+      ]
+
     },
     {
       "name": "css_06_boxe_texto1",
@@ -2618,7 +2636,18 @@
       "icon": "icons/components/icon_07_secao_titulo1.svg",
       "allowNesting": "yes",
       "label": {
-        "key": "Abre de seções"
+        "key": "Abre de seções "
+      },
+      "properties": [
+        "style_abre_secoes"
+      ]
+    },
+    {
+      "name": "secao_editavel",
+      "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "allowNesting": "yes",
+      "label": {
+        "key": "Abre de seções editávels"
       },
       "properties": [
         "style_abre_secoes"
@@ -3210,6 +3239,7 @@
         "css_06_boxe_item",
         "css_06_boxe_texto_citado",
         "css_06_boxe_highlight",
+        "css_06_boxe_highlight_container",
         "css_06_boxe_texto1",
         "css_06_boxe_texto2",
         "css_06_boxe_texto3",
@@ -3243,7 +3273,8 @@
         "css_07_secao_titulo2",
         "css_07_secao_titulo3",
         "css_07_secao_titulo4",
-        "secao"
+        "secao",
+        "secao_editavel"
       ]
     },
     {
@@ -3993,6 +4024,15 @@
               }
             },
             "value": "diario_do_artista"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Exercicio resolvido"
+              }
+            },
+            "value": "exe_resolvido"
           }
         ]
       },
