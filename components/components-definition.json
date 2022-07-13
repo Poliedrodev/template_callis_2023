@@ -3127,6 +3127,7 @@
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
+        "css_02_texto_bullet",
         "css_02_texto_bullet_v2",
         "css_02_texto_bullet_item_texto",
         "css_02_texto_bullet_item_texto_citado",
@@ -3348,8 +3349,7 @@
         "container_nivel1",
         "container_nivel2",
         "container_nivel3",
-        "container_questao",
-        "css_02_texto_bullet"
+        "container_questao"
       ]
     }
   ],
