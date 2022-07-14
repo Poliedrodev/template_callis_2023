@@ -1025,6 +1025,8 @@
       "name": "css_06_boxe_highlight_container",
       "icon": "icons/components/icon_02_texto_glossario.svg",
       "label": "06 Texto Highlight Container",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
