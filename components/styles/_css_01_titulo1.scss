@@ -75,6 +75,15 @@
     }
   }
 
+  &.matematica {
+    background-color: $mat_cor100;
+
+    .icone_titulo1 {
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/dig_titulo_abertura_head_mat.svg");
+
+    }
+  }
+
 
   &.lingua_inglesa {
     background-color: $ing_cor100;
