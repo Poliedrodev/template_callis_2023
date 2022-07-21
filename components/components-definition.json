@@ -3049,7 +3049,7 @@
       "name": "css_02_texto_bullet_v2",
       "icon": "icons/components/container.svg",
       "allowNesting": "yes",
-      "label": "Container Texto Bullet",
+      "label": "Container Texto Bullet Novo",
       "properties": [
         "style",
         "text-align",
@@ -3063,8 +3063,8 @@
         "main": {
           "groups": [
             {
-              "label": "Texto Bullet",
-              "name": "Texto Bullet",
+              "label": "Texto Bullet Novo",
+              "name": "Texto Bullet Novo",
               "components": [
                 "css_02_texto_bullet_itens_v2"
               ]
@@ -3089,7 +3089,7 @@
       "name": "css_02_texto_bullet_item_texto",
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Texto Bullet",
-      "allowNesting": "no",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -3158,7 +3158,6 @@
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
-        "css_02_texto_bullet",
         "css_02_texto_bullet_v2",
         "css_02_texto_bullet_item_texto",
         "css_02_texto_bullet_item_texto_citado",
