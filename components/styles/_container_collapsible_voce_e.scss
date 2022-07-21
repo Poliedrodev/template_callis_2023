@@ -16,29 +16,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $mat_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $mat_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $mat_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $mat_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -58,29 +52,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $cie_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $cie_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $cie_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $cie_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -100,29 +88,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $art_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $art_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $art_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $art_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -142,29 +124,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $por_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $por_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $por_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $por_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -184,29 +160,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $his_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $his_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $his_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $his_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -226,29 +196,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $geo_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $geo_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $geo_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $geo_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {
@@ -268,29 +232,23 @@
 
     /*  */
     .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $ing_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $ing_cor2 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
       display: inline-block;
+
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $ing_cor2;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $ing_cor2 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+      background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+      height: 14px;
+      width: 14px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .lbl-toggle-callis {

@@ -12,45 +12,39 @@
     white-space: nowrap;
   }
 
-    /*  */
-    .plus {
-      --b: 3px;
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $conheca_50;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $conheca_50 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
-      display: inline-block;
-    }
+  /*  */
+  .plus {
+    display: inline-block;
 
-    .less {
-      --b: 3px;
-      /* the thickness */
-      height: 24px;
-      width: 24px;
-      /* the size */
-      aspect-ratio: 1/1;
-      border: 8px solid $conheca_50;
-      /* the outer space */
-      background:
-        conic-gradient(from 90deg at var(--b) var(--b), $conheca_50 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
-    }
+    background: url("https://livro-digital.p4ed.com/assets/icons/callis-mais.svg");
+    height: 14px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
-    .lbl-toggle-callis {
-      background: linear-gradient(45deg, $conheca_100 98%, transparent 98%);
-    }
+  .less {
+    background: url("https://livro-digital.p4ed.com/assets/icons/callis-menos.svg");
+    height: 14px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
-    .flex-icon {
-      background-color: $conheca_50;
-    }
+  .lbl-toggle-callis {
+    background: linear-gradient(45deg, $conheca_100 98%, transparent 98%);
+  }
 
-    .collapsible-content-05 .content-inner {
-      background-color: $conheca_20;
-    }
-  
+  .flex-icon {
+    background-color: $conheca_50;
+  }
+
+  .collapsible-content-05 .content-inner {
+    background-color: $conheca_20;
+  }
+
 
   input[type='checkbox'] {
     display: none;
